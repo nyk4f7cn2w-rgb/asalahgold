@@ -1,52 +1,791 @@
-<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b0a0a"><meta name="description" content="متحف أصالة الذهب الرقمي، مجموعة المجوهرات الأصلية"><title>أصالة الذهب — متحف الذهب</title><link rel="icon" href="logo.jpg"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet"><style>
-:root{--black:#0b0a0a;--wine:#2b121d;--gold:#d1ae74;--pale:#eee5d7;--line:#a18a6745}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--black);color:var(--pale);font-family:Manrope,Tahoma,sans-serif}body.modal-open{overflow:hidden}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}img{display:block;max-width:100%}.wrap{width:min(1360px,calc(100% - 46px));margin:auto}.site-header{position:fixed;z-index:80;top:0;left:0;right:0;border-bottom:1px solid #d1ae7430;background:#0c0b0bdc;backdrop-filter:blur(18px)}.header-inner{height:82px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{display:flex;align-items:center;gap:12px}.brand img{width:47px;height:47px;object-fit:cover;border-radius:50%;border:1px solid #ae8a5a}.brand b{font:22px Amiri,serif;display:block;line-height:1.2;color:#ead5ae}.brand small{font-size:9px;letter-spacing:3px;color:#c3a980}.nav{display:flex;gap:26px;font-size:11px;letter-spacing:1px}.nav a:hover{color:var(--gold)}.tools{display:flex;gap:9px;align-items:center}.lang,.navtoggle{border:1px solid #a18a6777;background:transparent;color:#ead5ae;padding:10px 12px;font-size:11px}.navtoggle{display:none}.museum-hero{min-height:100svh;padding:125px 0 55px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 45%,#3b1727 0%,#180e14 40%,#0b0a0a 76%)}.museum-hero:before{content:'';position:absolute;inset:0;opacity:.25;background-image:linear-gradient(#d1ae7410 1px,transparent 1px),linear-gradient(90deg,#d1ae7410 1px,transparent 1px);background-size:80px 80px;pointer-events:none}.museum-hero-grid{display:grid;grid-template-columns:42% 58%;min-height:620px;align-items:center;position:relative}.hero-copy{position:relative;z-index:4;padding:30px 0}.eyebrow{font-size:10px;letter-spacing:4px;color:var(--gold)}.hero-copy h1{font:clamp(58px,7vw,108px)/1.2 Amiri,serif;color:#f2e4ca;margin:24px 0 10px}.hero-copy h2{font:clamp(28px,3vw,43px)/1.5 Amiri,serif;font-weight:400;margin:0;color:#d9b985}.hero-copy p{max-width:380px;color:#c9b9b3;line-height:2.2;font-size:13px;margin:22px 0 34px}.outline-link{display:inline-flex;align-items:center;gap:35px;border-bottom:1px solid #bca06e;padding:12px 0;color:#e7d1ab;font-size:12px}.outline-link span{font-size:20px}.exhibit-stage{height:620px;position:relative;display:grid;place-items:center;isolation:isolate}.exhibit-ring{width:min(560px,95%);aspect-ratio:1;position:absolute;border:1px solid #c4a27455;border-radius:50%;box-shadow:0 0 0 35px #c4a27406,0 0 0 75px #c4a27404}.exhibit-ring:after{content:'';position:absolute;inset:24px;border:1px dashed #c4a27438;border-radius:50%;animation:orbit 65s linear infinite}.exhibit-frame{position:relative;width:min(365px,65%);height:510px;border:1px solid #d4b77b99;padding:9px;background:#150c11;box-shadow:0 40px 90px #0009;transform:rotate(-2deg)}.exhibit-frame img{width:100%;height:100%;object-fit:cover}.exhibit-frame:after{content:'';position:absolute;inset:9px;background:linear-gradient(180deg,transparent 65%,#09060988);pointer-events:none}.exhibit-tag{position:absolute;bottom:23px;right:25px;left:25px;z-index:2;font-size:10px;letter-spacing:3px;color:#f6e1bc}.liquid-gold{position:absolute;inset:-5%;width:110%;height:110%;pointer-events:none;z-index:1;overflow:visible}.liquid-gold path{fill:none;stroke:url(#goldGradient);stroke-width:2.6;stroke-linecap:round;stroke-dasharray:15 21;filter:drop-shadow(0 0 7px #d2a25d);animation:liquidTravel 13s linear infinite}.liquid-gold .flow2{stroke-width:1.2;opacity:.65;animation-duration:19s;animation-direction:reverse}.exhibit-index{position:absolute;bottom:5px;left:20px;font-size:10px;letter-spacing:3px;color:#c4a780}.chapter-marker{display:flex;align-items:center;gap:15px;color:#c4a780;font-size:10px;letter-spacing:3px}.chapter-marker:before{content:'';width:55px;height:1px;background:#c4a780}.hall-intro{padding:110px 0 75px;text-align:center;background:#eae2d5;color:#241820}.hall-intro .eyebrow{color:#8c6843}.hall-intro h2{font:clamp(40px,5vw,72px)/1.35 Amiri,serif;margin:20px auto;max-width:820px}.hall-intro p{max-width:650px;margin:auto;color:#73635f;line-height:2.3;font-size:14px}.halls{background:#eae2d5;padding:0 0 110px}.halls-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:20px}.hall{position:relative;overflow:hidden;background:#2b1420;min-height:540px}.hall:nth-child(2){margin-top:90px;min-height:450px}.hall img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;transition:transform .8s}.hall:hover img{transform:scale(1.05)}.hall:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#0a0509da,transparent 55%)}.hall-info{position:absolute;bottom:30px;right:32px;left:32px;z-index:1}.hall-info small{letter-spacing:4px;font-size:10px;color:#e1bd85}.hall-info h3{font:clamp(35px,4vw,62px) Amiri,serif;margin:10px 0}.hall-info a{font-size:12px;border-bottom:1px solid #d4b780;padding-bottom:8px}.manifesto{background:#170e13;display:grid;grid-template-columns:1fr 1fr;min-height:590px}.manifesto-visual{position:relative;overflow:hidden}.manifesto-visual img{width:100%;height:100%;position:absolute;object-fit:cover}.manifesto-content{padding:clamp(45px,7vw,110px);display:flex;flex-direction:column;justify-content:center}.manifesto-content h2{font:clamp(40px,5vw,73px)/1.35 Amiri,serif;margin:20px 0}.manifesto-content p{font-size:14px;line-height:2.4;color:#d0bcb9}.museum-gallery{padding:110px 0;background:#100c0e}.gallery-head{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:45px}.gallery-head h2{font:clamp(42px,5vw,75px) Amiri,serif;margin:10px 0}.gallery-head p{font-size:12px;color:#b5a4a0;line-height:2}.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:35px}.filters button{border:1px solid #a18a6755;color:#d6c1ac;background:transparent;padding:12px 20px;font-size:11px}.filters button.active{background:#d1ae74;color:#160c10}.artifacts{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.artifact{border:1px solid #9e816344;background:#1d1419;text-align:right;color:#e8d9c6;padding:12px;position:relative;overflow:hidden}.artifact img{width:100%;aspect-ratio:4/5;object-fit:cover;transition:transform .6s}.artifact:hover img{transform:scale(1.04)}.artifact-num{position:absolute;z-index:2;top:25px;right:25px;background:#0e080cbb;padding:8px 10px;font-size:11px;color:#e3c28d}.artifact-bottom{display:flex;justify-content:space-between;align-items:center;padding:17px 6px 5px;letter-spacing:3px;font-size:10px}.artifact-bottom span:last-child{font-size:19px}.artifact[hidden]{display:none}.contact{padding:105px 0;text-align:center;background:#eae2d5;color:#26171e}.contact h2{font:clamp(42px,5vw,74px) Amiri,serif;margin:15px 0}.contact p{color:#73645d;font-size:13px}.contact-links{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:30px}.contact-links a{background:#301622;color:#f1d9b6;padding:16px 26px;min-width:135px;font-size:12px}.footer{background:#0b0a0a;border-top:1px solid #9e816344;padding:40px 0;color:#c7b4a0}.footer .wrap{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer small{font-size:10px;letter-spacing:2px}.viewer{display:none;position:fixed;inset:0;z-index:200;background:#080609f5;align-items:center;justify-content:center;padding:55px}.viewer.open{display:flex}.viewer img{max-width:90vw;max-height:85vh;object-fit:contain}.viewer button{position:absolute;background:#301622;border:1px solid #d1ae74;color:#f6dfbb;width:45px;height:45px;font-size:25px}.viewer .close{top:15px;right:15px}.viewer .prev{top:50%;left:12px}.viewer .next{top:50%;right:12px}
-.entry{position:fixed;inset:0;z-index:300;display:grid;place-items:center;background:#080708;overflow:hidden;transition:opacity .7s ease,visibility .7s ease}.entry.done{opacity:0;visibility:hidden;pointer-events:none}.entry-frame{width:min(350px,72vw);height:min(420px,62vh);border:1px solid #a17c4755;position:relative;display:grid;place-items:center;overflow:hidden}.entry-frame:before{content:'';position:absolute;inset:12px;border:1px solid #d1ae7430}.entry-sweep{position:absolute;top:0;bottom:0;left:-45%;width:35%;transform:skewX(-20deg);background:linear-gradient(90deg,transparent,#d9af7155,#f9dc9cbb,#d9af7155,transparent);filter:blur(13px);animation:sweep 1.6s ease-in-out both}.entry-text{font:clamp(30px,6vw,52px) Amiri,serif;color:#f1dfc1;position:relative;z-index:1;letter-spacing:1px}.entry-label{position:absolute;bottom:30px;font-size:9px;letter-spacing:4px;color:#b89a6f}.skip{position:absolute;bottom:25px;left:25px;background:transparent;color:#dfc395;border:1px solid #b89a6f66;padding:10px 15px;font-size:11px;z-index:2}.entry .trace{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.entry .trace path{fill:none;stroke:#e1b96f;stroke-width:2;stroke-dasharray:1600;stroke-dashoffset:1600;animation:traceLine 1.9s ease forwards}.reveal{opacity:0;transform:translateY(24px);transition:opacity .85s ease,transform .85s ease}.reveal.visible{opacity:1;transform:none}@keyframes sweep{from{left:-50%}to{left:140%}}@keyframes traceLine{to{stroke-dashoffset:0}}@keyframes liquidTravel{to{stroke-dashoffset:-720}}@keyframes orbit{to{transform:rotate(360deg)}}
-@media(max-width:900px){.nav{display:none;position:absolute;top:82px;right:0;left:0;background:#0c0b0b;padding:25px;flex-direction:column}.nav.open{display:flex}.navtoggle{display:block}.museum-hero-grid{grid-template-columns:1fr}.hero-copy{order:2}.exhibit-stage{order:1;height:520px}.exhibit-frame{height:410px;width:300px}.museum-hero{padding-top:90px}.halls-grid{grid-template-columns:1fr}.hall:nth-child(2){margin-top:0}.hall{min-height:450px}.manifesto{grid-template-columns:1fr}.manifesto-visual{height:470px}.artifacts{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:600px){.wrap{width:calc(100% - 30px)}.header-inner{height:69px}.brand img{width:39px;height:39px}.brand b{font-size:17px}.brand small{font-size:8px;letter-spacing:1px}.nav{top:69px}.museum-hero{padding:78px 0 60px}.exhibit-stage{height:440px}.exhibit-ring{width:345px;max-width:96%}.exhibit-frame{height:330px;width:240px;padding:6px}.exhibit-tag{font-size:8px}.hero-copy{padding:0 4px}.hero-copy h1{font-size:60px;margin:10px 0}.hero-copy h2{font-size:32px}.hero-copy p{font-size:12px}.hall-intro{padding:75px 0 55px}.halls{padding-bottom:65px}.hall{min-height:370px}.hall:nth-child(2){min-height:340px}.manifesto-visual{height:370px}.manifesto-content{padding:55px 24px}.museum-gallery{padding:70px 0}.gallery-head{display:block}.gallery-head h2{font-size:50px}.artifacts{gap:10px}.artifact{padding:6px}.artifact-num{top:12px;right:12px;padding:5px;font-size:9px}.artifact-bottom{padding:12px 3px 4px;font-size:8px;letter-spacing:1px}.filters button{padding:10px 12px}.contact{padding:75px 0}.contact-links a{flex:1;min-width:95px;padding:13px 10px}.footer .wrap{flex-direction:column;text-align:center}.entry-frame{height:340px}}
-@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.entry{display:none}.reveal{opacity:1;transform:none}}
-</style><style>
-.curated-halls{display:flex;flex-direction:column;gap:100px}.hall-heading{border-top:1px solid #b8966d66;padding:26px 0 35px;display:flex;justify-content:space-between;align-items:center;color:#d4b788}.hall-heading span{font-size:11px;letter-spacing:3px}.hall-heading h3{font:clamp(38px,5vw,68px) Amiri,serif;margin:0;color:#f0ddc0}.curated-wall{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:25px 18px;align-items:start}.curated-wall .artifact{grid-column:span 3;background:transparent;border:0;padding:0;min-width:0;overflow:visible}.curated-wall .artifact:nth-child(7n+1){grid-column:span 6;grid-row:span 2}.curated-wall .artifact:nth-child(7n+4){grid-column:span 4}.curated-wall .artifact:nth-child(7n+5){grid-column:span 5}.curated-wall .artifact:nth-child(7n+6){grid-column:span 3}.curated-wall .artifact:nth-child(7n+7){grid-column:span 4}.artifact-image{display:block;background:#25171f;padding:11px;border:1px solid #a98c685c;overflow:hidden}.curated-wall .artifact img{width:100%;aspect-ratio:4/5;object-fit:cover;transition:transform .6s ease}.curated-wall .artifact:nth-child(7n+1) img{aspect-ratio:5/6}.curated-wall .artifact:nth-child(7n+5) img{aspect-ratio:5/4}.curated-wall .artifact:hover img{transform:scale(1.045)}.curated-wall .artifact-num{top:22px;right:22px;background:#150c12d9;border:1px solid #b99c6a66}.curated-wall .artifact-bottom{color:#d0b68c;padding:13px 3px;font-size:9px}.curated-hall[hidden]{display:none}.manifesto-visual{min-height:480px;background:#2b1420}.manifesto-visual img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.manifesto-content{min-height:480px}.museum-gallery{background:linear-gradient(#100c0e,#1c1118);padding:90px 0 120px}@media(max-width:900px){.curated-wall{grid-template-columns:repeat(6,minmax(0,1fr));gap:15px 11px}.curated-wall .artifact{grid-column:span 3!important;grid-row:auto!important}.curated-wall .artifact:nth-child(5n+1){grid-column:span 6!important}.curated-wall .artifact:nth-child(5n+1) img{aspect-ratio:5/4}.curated-halls{gap:65px}}@media(max-width:600px){.artifact-image{padding:5px}.curated-wall .artifact-num{top:10px;right:10px;padding:5px;font-size:8px}.hall-heading h3{font-size:36px}.hall-heading span{font-size:9px}.manifesto-visual{min-height:350px}.manifesto-content{min-height:0}.curated-wall .artifact-bottom{font-size:8px;letter-spacing:1px}}
-</style><style>.manifesto-visual{display:block;min-height:450px;background:#321521}.manifesto-visual img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.manifesto-content{min-height:450px}@media(max-width:900px){.manifesto-visual{min-height:360px}.manifesto-content{min-height:0}}</style><style>
-/* ASALAH cinematic identity v11: full-screen editorial reveal */
-.site-header{background:#080708df;border-color:#cba46c36}.site-header .brand b{color:#f5e6ca}
-.cinematic-hero{height:100svh;min-height:670px;padding:0!important;display:flex;align-items:center;justify-content:center;isolation:isolate;background:#0a0608;overflow:hidden}
-.cinematic-backdrop,.cinematic-backdrop img,.cinematic-vignette,.cinematic-glint{position:absolute;inset:0;width:100%;height:100%}
-.cinematic-backdrop{z-index:-1;overflow:hidden}
-.cinematic-backdrop img{object-fit:cover;object-position:center 46%;filter:brightness(.52) contrast(1.14) saturate(.94);transform:scale(1.2)}
-.cinematic-vignette{background:linear-gradient(90deg,#10070edb 0%,#18091090 42%,#16091262 100%),linear-gradient(0deg,#090508ad,transparent 35%,#0905086a)}
-.cinematic-glint{inset:-25% auto -25% -50%;width:36%;height:150%;transform:skewX(-25deg) translateX(-200%);background:linear-gradient(90deg,transparent,#ffe6a00a,#fff1bc3b,#fff0b40b,transparent);mix-blend-mode:screen;pointer-events:none}
-.cinematic-content{width:min(1200px,calc(100% - 85px));margin:auto;position:relative;z-index:3;padding:90px 0 20px;text-align:right}
-.cinematic-kicker{color:#dfc293;font-size:12px;letter-spacing:5px}.cinematic-kicker span{margin:0 12px}
-.cinematic-content h1{font:clamp(82px,11vw,168px)/1.15 Amiri,serif;margin:15px 0 0;color:#fff0d4;text-shadow:0 15px 70px #000a}
-.cinematic-rule{height:1px;width:0;background:linear-gradient(90deg,#f3d6a2,#8e6235);margin:18px 0 22px}
-.cinematic-content h2{font:clamp(36px,4.5vw,66px)/1.4 Amiri,serif;font-weight:400;color:#f0d5a5;margin:0}
-.cinematic-content p{font:17px/2 Amiri,serif;color:#f0e2d6;margin:18px 0 36px}
-.cinematic-actions{display:flex;gap:13px;flex-wrap:wrap}.cinematic-actions a{min-width:190px;padding:17px 24px;text-align:center;font-size:12px;transition:transform .3s,background .3s}.cinematic-actions a:hover{transform:translateY(-4px)}.cinematic-primary{background:#c7a16a;color:#1a0b13}.cinematic-secondary{border:1px solid #e1c59d;color:#f7e9d1}
-.cinematic-bottom{position:absolute;bottom:28px;right:45px;left:45px;display:flex;justify-content:space-between;gap:12px;color:#d7bc95;font-size:10px;letter-spacing:3px;z-index:3}
-.cinematic-entry{background:transparent!important;opacity:1!important;visibility:visible!important;transition:none!important;pointer-events:auto}
-.cinematic-entry-left,.cinematic-entry-right{position:absolute;top:0;bottom:0;width:50.1%;background:radial-gradient(ellipse at center,#3d1726,#080508 80%);z-index:1;transition:transform 1.25s cubic-bezier(.77,0,.18,1)}
-.cinematic-entry-left{left:0;border-right:1px solid #a77e45}.cinematic-entry-right{right:0;border-left:1px solid #a77e45}
-.cinematic-entry-center{position:relative;z-index:2;text-align:center;display:flex;align-items:center;flex-direction:column;gap:12px;animation:cinemaLogoIn 1.2s ease both;transition:opacity .4s,transform .7s}
-.cinematic-entry-center img{width:105px;height:105px;border-radius:50%;border:1px solid #cba66a;box-shadow:0 0 70px #caa26c55}
-.cinematic-entry-center span{font:22px Georgia,serif;letter-spacing:7px;color:#f5dfb8}.cinematic-entry-center small{font:10px Georgia,serif;letter-spacing:5px;color:#c4a278}
-.cinematic-entry-halo{position:absolute;width:250px;height:250px;top:-70px;border:1px solid #d2ac6b66;border-radius:50%;box-shadow:0 0 0 35px #cda66b08,0 0 0 70px #cda66b06;animation:haloExpand 2.5s ease both;pointer-events:none}
-.cinematic-entry-flash{position:absolute;inset:0;z-index:3;background:radial-gradient(ellipse at center,#fff5cf9c,transparent 60%);opacity:0;pointer-events:none}
-.cinematic-entry.done{pointer-events:none}.cinematic-entry.done .cinematic-entry-left{transform:translateX(-105%)}.cinematic-entry.done .cinematic-entry-right{transform:translateX(105%)}.cinematic-entry.done .cinematic-entry-center{opacity:0;transform:scale(1.3)}.cinematic-entry.done .cinematic-entry-flash{animation:cinemaFlash .9s ease both}.cinematic-entry .skip{z-index:4}
-.cinematic-content>*{opacity:0;transform:translateY(28px)}.cinematic-ready .cinematic-content>*{animation:cinemaTextUp .9s ease forwards}.cinematic-ready .cinematic-content>*:nth-child(2){animation-delay:.15s}.cinematic-ready .cinematic-content>*:nth-child(3){animation-delay:.32s}.cinematic-ready .cinematic-content>*:nth-child(4){animation-delay:.46s}.cinematic-ready .cinematic-content>*:nth-child(5){animation-delay:.6s}.cinematic-ready .cinematic-content>*:nth-child(6){animation-delay:.73s}.cinematic-ready .cinematic-rule{animation:cinemaRule 1s .4s ease forwards}.cinematic-ready .cinematic-backdrop img{animation:cinemaZoom 7s ease forwards}.cinematic-ready .cinematic-glint{animation:cinemaSweep 2.2s 1.1s ease both}
-@keyframes cinemaLogoIn{from{opacity:0;transform:scale(.65);filter:blur(13px)}to{opacity:1;transform:scale(1);filter:blur(0)}}@keyframes haloExpand{from{transform:scale(.2);opacity:0}to{transform:scale(1);opacity:1}}@keyframes cinemaFlash{0%{opacity:0}30%{opacity:.85}100%{opacity:0}}@keyframes cinemaTextUp{to{opacity:1;transform:none}}@keyframes cinemaRule{to{opacity:1;transform:none;width:150px}}@keyframes cinemaZoom{from{transform:scale(1.2)}to{transform:scale(1)}}@keyframes cinemaSweep{from{transform:skewX(-25deg) translateX(-200%)}to{transform:skewX(-25deg) translateX(750%)}} 
-@media(max-width:650px){.cinematic-hero{height:100svh;min-height:620px}.cinematic-backdrop img{object-position:54% 50%}.cinematic-vignette{background:linear-gradient(0deg,#0b050ce8 0%,#1b0913aa 48%,#13071155 100%)}.cinematic-content{width:calc(100% - 40px);padding:100px 0 35px;align-self:flex-end}.cinematic-content h1{font-size:76px}.cinematic-content h2{font-size:37px}.cinematic-content p{font-size:16px;margin:12px 0 25px}.cinematic-kicker{font-size:9px;letter-spacing:2px}.cinematic-actions a{flex:1;min-width:130px;padding:15px 9px}.cinematic-bottom{right:20px;left:20px;bottom:14px;font-size:8px;letter-spacing:1px}.cinematic-bottom span:last-child{display:none}.cinematic-entry-center img{width:88px;height:88px}.cinematic-entry-center span{font-size:18px;letter-spacing:4px}}
-@media(prefers-reduced-motion:reduce){.cinematic-entry{display:none!important}.cinematic-content>*{opacity:1;transform:none}.cinematic-rule{width:150px}.cinematic-backdrop img{transform:none}.cinematic-glint{display:none}}
-</style><meta name="color-scheme" content="dark light"><!-- ASALAH GOLD BURGUNDY MAIN RELEASE 2026-10-27; canonical root refresh --></head><body>
-<div class="entry cinematic-entry" id="entry" aria-label="الافتتاح السينمائي لأصالة الذهب"><div class="cinematic-entry-left"></div><div class="cinematic-entry-right"></div><div class="cinematic-entry-center"><div class="cinematic-entry-halo"></div><img src="logo.jpg" alt="شعار أصالة الذهب"><span>ASALAH GOLD</span><small>THE ART OF GOLD</small></div><div class="cinematic-entry-flash"></div><button class="skip" id="skip" type="button">تخطي المقدمة</button></div>
-<header class="site-header"><div class="wrap header-inner"><a class="brand" href="#home"><img src="logo.jpg" alt="شعار أصالة الذهب"><span><b>أصالة الذهب</b><small>ASALAH GOLD</small></span></a><nav class="nav" id="nav"><a href="#home" data-ar="المدخل" data-en="ENTRANCE">المدخل</a><a href="#halls" data-ar="قاعات العرض" data-en="EXHIBITION HALLS">قاعات العرض</a><a href="#gallery" data-ar="المقتنيات" data-en="COLLECTION">المقتنيات</a><a href="#contact" data-ar="تواصل" data-en="CONTACT">تواصل</a></nav><div class="tools"><button class="lang" id="lang">EN</button><button class="navtoggle" id="navtoggle" aria-label="القائمة">☰</button></div></div></header>
-<main><section class="museum-hero cinematic-hero" id="home"><div class="cinematic-backdrop"><img src="gallery/F0AA2880-6D27-4F97-883A-55A48D89A9E6.png" alt="قطعة ذهب أصالة الذهب" fetchpriority="high"><div class="cinematic-vignette"></div><div class="cinematic-glint"></div></div><div class="cinematic-content"><div class="cinematic-kicker">ASALAH GOLD <span>—</span> THE ART OF GOLD</div><h1 data-ar="أصالة الذهب" data-en="ASALAH GOLD">أصالة الذهب</h1><div class="cinematic-rule"></div><h2 data-ar="أصالة تتوارثها الأجيال" data-en="A Legacy Across Generations">أصالة تتوارثها الأجيال</h2><p data-ar="عالمٌ من الذهب، تُحكى فيه الفخامة بالتفاصيل" data-en="A world of gold, where every detail tells a story">عالمٌ من الذهب، تُحكى فيه الفخامة بالتفاصيل</p><div class="cinematic-actions"><a href="#halls" class="cinematic-primary" data-ar="اكتشف مجموعتنا" data-en="EXPLORE THE COLLECTION">اكتشف مجموعتنا</a><a href="#contact" class="cinematic-secondary" data-ar="تواصل معنا" data-en="CONTACT US">تواصل معنا</a></div></div><div class="cinematic-bottom"><span>ASALAH GOLD / IRAQ</span><a href="#halls">SCROLL TO DISCOVER ↓</a><span>01 / 03</span></div></section>
-<section class="hall-intro"><div class="wrap reveal"><div class="eyebrow">A DIFFERENT WAY TO SEE GOLD</div><h2 data-ar="كل قطعة تحفة، وكل تحفة إلها حكاية" data-en="Every Piece, a Masterpiece">كل قطعة تحفة، وكل تحفة إلها حكاية</h2><p data-ar="من أصالة الذهب، نقدم تجربة عرض تستحقها المجوهرات: هدوء، إضاءة، وتفاصيل تترك القطعة تتكلم عن نفسها." data-en="A gallery of craftsmanship, light and detail — letting every piece speak for itself.">من أصالة الذهب، نقدم تجربة عرض تستحقها المجوهرات: هدوء، إضاءة، وتفاصيل تترك القطعة تتكلم عن نفسها.</p></div></section>
-<section class="halls" id="halls"><div class="wrap halls-grid"><div class="hall reveal"><img src="gallery/EB2820CE-6DBE-40E7-8A62-FD376318636C.png" loading="lazy" alt="قطعة ذهب في قاعة العرض الأولى"><div class="hall-info"><small>EXHIBITION HALL — 01</small><h3 data-ar="قاعة التفاصيل" data-en="THE DETAIL HALL">قاعة التفاصيل</h3><a href="#gallery" data-ar="اكتشف المقتنيات" data-en="DISCOVER THE PIECES">اكتشف المقتنيات</a></div></div><div class="hall reveal"><img src="gallery/305CA9B9-3084-44F7-BD07-F5DB40B6C92E.png" loading="lazy" alt="قطعة ذهب في قاعة العرض الثانية"><div class="hall-info"><small>EXHIBITION HALL — 02</small><h3 data-ar="قاعة الأصالة" data-en="THE HERITAGE HALL">قاعة الأصالة</h3><a href="#gallery" data-ar="شاهد المعرض" data-en="VIEW THE GALLERY">شاهد المعرض</a></div></div></div></section>
-<section class="manifesto"><div class="manifesto-visual"><img src="gallery/F0AA2880-6D27-4F97-883A-55A48D89A9E6.png" loading="lazy" alt="مجوهرات ذهب أصالة"></div><div class="manifesto-content reveal"><div class="eyebrow">THE ASALAH PHILOSOPHY</div><h2 data-ar="الذهب فنّ قبل أن يكون زينة" data-en="Gold Is an Art Form">الذهب فنّ قبل أن يكون زينة</h2><p data-ar="أصالة الذهب لتجارة الذهب والفضة والمجوهرات محدودة المسؤولية – شركة خاصة. هوية عراقية، وتقدير للجمال الذي يرافق اللحظات المهمة." data-en="ASALAH GOLD is a private Iraqi gold, silver and jewelry trading company, celebrating timeless beauty and meaningful moments.">أصالة الذهب لتجارة الذهب والفضة والمجوهرات محدودة المسؤولية – شركة خاصة. هوية عراقية، وتقدير للجمال الذي يرافق اللحظات المهمة.</p></div></section>
-<section class="museum-gallery" id="gallery"><div class="wrap"><div class="gallery-head"><div><div class="eyebrow">THE PERMANENT COLLECTION</div><h2 data-ar="المقتنيات الذهبية" data-en="THE GOLD COLLECTION">المقتنيات الذهبية</h2></div><p data-ar="49 قطعة معروضة بصورها الأصلية<br>اضغط على أي قطعة لمشاهدتها بحجم أكبر" data-en="49 pieces shown in original photos. Select any piece for a closer look.">49 قطعة معروضة بصورها الأصلية<br>اضغط على أي قطعة لمشاهدتها بحجم أكبر</p></div><div class="filters" id="filters"><button class="active" data-filter="all" data-ar="جميع المقتنيات" data-en="ALL PIECES">جميع المقتنيات</button><button data-filter="latest" data-ar="أحدث الإضافات" data-en="LATEST ADDITIONS">أحدث الإضافات</button><button data-filter="earlier" data-ar="المجموعة السابقة" data-en="EARLIER COLLECTION">المجموعة السابقة</button></div><div class="curated-halls"><section class="curated-hall"><div class="hall-heading"><span>EXHIBITION 01 / 03</span><h3>قاعة الأصالة</h3></div><div class="curated-wall"><button class="artifact" data-i="0" aria-label="عرض قطعة رقم 1"><span class="artifact-num">Nº 01</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2633.jpeg" alt="مجوهرات أصالة الذهب 1"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="1" aria-label="عرض قطعة رقم 2"><span class="artifact-num">Nº 02</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2634.jpeg" alt="مجوهرات أصالة الذهب 2"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="2" aria-label="عرض قطعة رقم 3"><span class="artifact-num">Nº 03</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2635.jpeg" alt="مجوهرات أصالة الذهب 3"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="3" aria-label="عرض قطعة رقم 4"><span class="artifact-num">Nº 04</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2639.jpeg" alt="مجوهرات أصالة الذهب 4"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="4" aria-label="عرض قطعة رقم 5"><span class="artifact-num">Nº 05</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2640.jpeg" alt="مجوهرات أصالة الذهب 5"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="5" aria-label="عرض قطعة رقم 6"><span class="artifact-num">Nº 06</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2641.jpeg" alt="مجوهرات أصالة الذهب 6"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="6" aria-label="عرض قطعة رقم 7"><span class="artifact-num">Nº 07</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2643.jpeg" alt="مجوهرات أصالة الذهب 7"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="7" aria-label="عرض قطعة رقم 8"><span class="artifact-num">Nº 08</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2646.jpeg" alt="مجوهرات أصالة الذهب 8"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="8" aria-label="عرض قطعة رقم 9"><span class="artifact-num">Nº 09</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2647.jpeg" alt="مجوهرات أصالة الذهب 9"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="9" aria-label="عرض قطعة رقم 10"><span class="artifact-num">Nº 10</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2648.jpeg" alt="مجوهرات أصالة الذهب 10"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="10" aria-label="عرض قطعة رقم 11"><span class="artifact-num">Nº 11</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2652.jpeg" alt="مجوهرات أصالة الذهب 11"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="11" aria-label="عرض قطعة رقم 12"><span class="artifact-num">Nº 12</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2653.jpeg" alt="مجوهرات أصالة الذهب 12"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="12" aria-label="عرض قطعة رقم 13"><span class="artifact-num">Nº 13</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2654.jpeg" alt="مجوهرات أصالة الذهب 13"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="13" aria-label="عرض قطعة رقم 14"><span class="artifact-num">Nº 14</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2655.jpeg" alt="مجوهرات أصالة الذهب 14"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="14" aria-label="عرض قطعة رقم 15"><span class="artifact-num">Nº 15</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2657.jpeg" alt="مجوهرات أصالة الذهب 15"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="15" aria-label="عرض قطعة رقم 16"><span class="artifact-num">Nº 16</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2751.jpeg" alt="مجوهرات أصالة الذهب 16"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button></div></section><section class="curated-hall"><div class="hall-heading"><span>EXHIBITION 02 / 03</span><h3>قاعة التفاصيل</h3></div><div class="curated-wall"><button class="artifact" data-i="16" aria-label="عرض قطعة رقم 17"><span class="artifact-num">Nº 17</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2752.jpeg" alt="مجوهرات أصالة الذهب 17"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="17" aria-label="عرض قطعة رقم 18"><span class="artifact-num">Nº 18</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2753.jpeg" alt="مجوهرات أصالة الذهب 18"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="18" aria-label="عرض قطعة رقم 19"><span class="artifact-num">Nº 19</span><span class="artifact-image"><img loading="lazy" src="gallery/IMG_2754.jpeg" alt="مجوهرات أصالة الذهب 19"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="19" aria-label="عرض قطعة رقم 20"><span class="artifact-num">Nº 20</span><span class="artifact-image"><img loading="lazy" src="gallery/1966323d-1488-4288-a324-7b0df29c244a.jpeg" alt="مجوهرات أصالة الذهب 20"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="20" aria-label="عرض قطعة رقم 21"><span class="artifact-num">Nº 21</span><span class="artifact-image"><img loading="lazy" src="gallery/246e6d69-538b-4c41-9929-77da1c55298a.jpeg" alt="مجوهرات أصالة الذهب 21"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="21" aria-label="عرض قطعة رقم 22"><span class="artifact-num">Nº 22</span><span class="artifact-image"><img loading="lazy" src="gallery/254f60f7-756b-415b-97c3-2987ab729ef9.jpeg" alt="مجوهرات أصالة الذهب 22"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="22" aria-label="عرض قطعة رقم 23"><span class="artifact-num">Nº 23</span><span class="artifact-image"><img loading="lazy" src="gallery/3356f7e2-4ab3-4be4-a437-6c3d43340bbe.jpeg" alt="مجوهرات أصالة الذهب 23"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="23" aria-label="عرض قطعة رقم 24"><span class="artifact-num">Nº 24</span><span class="artifact-image"><img loading="lazy" src="gallery/3e01857b-13f5-42be-8aa9-51a9aae0b422.jpeg" alt="مجوهرات أصالة الذهب 24"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="24" aria-label="عرض قطعة رقم 25"><span class="artifact-num">Nº 25</span><span class="artifact-image"><img loading="lazy" src="gallery/3e7e04cc-e7d4-412c-b2eb-60a6dab27d53.jpeg" alt="مجوهرات أصالة الذهب 25"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="25" aria-label="عرض قطعة رقم 26"><span class="artifact-num">Nº 26</span><span class="artifact-image"><img loading="lazy" src="gallery/488c54c0-b481-44d2-acdb-1b016e2a38e7.jpeg" alt="مجوهرات أصالة الذهب 26"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="26" aria-label="عرض قطعة رقم 27"><span class="artifact-num">Nº 27</span><span class="artifact-image"><img loading="lazy" src="gallery/53c504b7-0b33-4044-bde8-3f0aef22e68a.jpeg" alt="مجوهرات أصالة الذهب 27"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="27" aria-label="عرض قطعة رقم 28"><span class="artifact-num">Nº 28</span><span class="artifact-image"><img loading="lazy" src="gallery/66515678-1a89-49e3-9e80-7d5d3b982d97.jpeg" alt="مجوهرات أصالة الذهب 28"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="28" aria-label="عرض قطعة رقم 29"><span class="artifact-num">Nº 29</span><span class="artifact-image"><img loading="lazy" src="gallery/667334f9-915a-412d-987a-0f61e3ad016d.jpeg" alt="مجوهرات أصالة الذهب 29"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="29" aria-label="عرض قطعة رقم 30"><span class="artifact-num">Nº 30</span><span class="artifact-image"><img loading="lazy" src="gallery/75d2f2b6-d291-405c-b03e-c1950f5a0b42.jpeg" alt="مجوهرات أصالة الذهب 30"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="30" aria-label="عرض قطعة رقم 31"><span class="artifact-num">Nº 31</span><span class="artifact-image"><img loading="lazy" src="gallery/772eccca-cd10-4be1-9e7a-dc69f03f8967.jpeg" alt="مجوهرات أصالة الذهب 31"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="31" aria-label="عرض قطعة رقم 32"><span class="artifact-num">Nº 32</span><span class="artifact-image"><img loading="lazy" src="gallery/960fd9ab-d3a2-4761-a033-ffcbfe6e0e71.jpeg" alt="مجوهرات أصالة الذهب 32"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button></div></section><section class="curated-hall"><div class="hall-heading"><span>EXHIBITION 03 / 03</span><h3>قاعة المجموعات الجديدة</h3></div><div class="curated-wall"><button class="artifact" data-i="32" aria-label="عرض قطعة رقم 33"><span class="artifact-num">Nº 33</span><span class="artifact-image"><img loading="lazy" src="gallery/97f31d4b-da93-4ece-b620-57cd6f2da8b9.jpeg" alt="مجوهرات أصالة الذهب 33"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="33" aria-label="عرض قطعة رقم 34"><span class="artifact-num">Nº 34</span><span class="artifact-image"><img loading="lazy" src="gallery/9a45f2dd-37a8-421b-8331-86217bf9d619.jpeg" alt="مجوهرات أصالة الذهب 34"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="34" aria-label="عرض قطعة رقم 35"><span class="artifact-num">Nº 35</span><span class="artifact-image"><img loading="lazy" src="gallery/c4f7a3c4-77af-411e-aa35-2f4d96e7f723.jpeg" alt="مجوهرات أصالة الذهب 35"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="35" aria-label="عرض قطعة رقم 36"><span class="artifact-num">Nº 36</span><span class="artifact-image"><img loading="lazy" src="gallery/da71f129-b2af-4bd6-844c-30edbe8a0e02.jpeg" alt="مجوهرات أصالة الذهب 36"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="36" aria-label="عرض قطعة رقم 37"><span class="artifact-num">Nº 37</span><span class="artifact-image"><img loading="lazy" src="gallery/2774BA9E-1058-4C61-A471-483269BF3B2B.png" alt="مجوهرات أصالة الذهب 37"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="37" aria-label="عرض قطعة رقم 38"><span class="artifact-num">Nº 38</span><span class="artifact-image"><img loading="lazy" src="gallery/305CA9B9-3084-44F7-BD07-F5DB40B6C92E.png" alt="مجوهرات أصالة الذهب 38"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="38" aria-label="عرض قطعة رقم 39"><span class="artifact-num">Nº 39</span><span class="artifact-image"><img loading="lazy" src="gallery/30E6704E-6D11-47A3-9159-2E856DDF6C42.png" alt="مجوهرات أصالة الذهب 39"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="39" aria-label="عرض قطعة رقم 40"><span class="artifact-num">Nº 40</span><span class="artifact-image"><img loading="lazy" src="gallery/3F643CFA-0629-4CFB-8EDD-368B3080FE80.png" alt="مجوهرات أصالة الذهب 40"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="40" aria-label="عرض قطعة رقم 41"><span class="artifact-num">Nº 41</span><span class="artifact-image"><img loading="lazy" src="gallery/48D10393-8817-4DC5-A7CB-B9CF640C9F48.png" alt="مجوهرات أصالة الذهب 41"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="41" aria-label="عرض قطعة رقم 42"><span class="artifact-num">Nº 42</span><span class="artifact-image"><img loading="lazy" src="gallery/5D438114-DF71-4B72-B106-98255E7EAD87.png" alt="مجوهرات أصالة الذهب 42"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="42" aria-label="عرض قطعة رقم 43"><span class="artifact-num">Nº 43</span><span class="artifact-image"><img loading="lazy" src="gallery/5ED7D818-0045-43C2-8275-3058A811BD7C.png" alt="مجوهرات أصالة الذهب 43"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="43" aria-label="عرض قطعة رقم 44"><span class="artifact-num">Nº 44</span><span class="artifact-image"><img loading="lazy" src="gallery/86FBDFD1-E69E-4BFD-9664-82E501D3487D.png" alt="مجوهرات أصالة الذهب 44"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="44" aria-label="عرض قطعة رقم 45"><span class="artifact-num">Nº 45</span><span class="artifact-image"><img loading="lazy" src="gallery/A683B56D-0F8C-45DD-86E6-558BD9B882B0.png" alt="مجوهرات أصالة الذهب 45"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="45" aria-label="عرض قطعة رقم 46"><span class="artifact-num">Nº 46</span><span class="artifact-image"><img loading="lazy" src="gallery/BEFE0802-26EC-4A46-8A9D-1D42C33570D1.png" alt="مجوهرات أصالة الذهب 46"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="46" aria-label="عرض قطعة رقم 47"><span class="artifact-num">Nº 47</span><span class="artifact-image"><img loading="lazy" src="gallery/D2027A9E-8E00-4B8A-A874-5F1E41DE03D5.png" alt="مجوهرات أصالة الذهب 47"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="47" aria-label="عرض قطعة رقم 48"><span class="artifact-num">Nº 48</span><span class="artifact-image"><img loading="lazy" src="gallery/EB2820CE-6DBE-40E7-8A62-FD376318636C.png" alt="مجوهرات أصالة الذهب 48"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button><button class="artifact" data-i="48" aria-label="عرض قطعة رقم 49"><span class="artifact-num">Nº 49</span><span class="artifact-image"><img loading="lazy" src="gallery/F0AA2880-6D27-4F97-883A-55A48D89A9E6.png" alt="مجوهرات أصالة الذهب 49"></span><span class="artifact-bottom"><span>ASALAH GOLD</span><span>↗</span></span></button></div></section></div></div></section>
-<section class="contact" id="contact"><div class="wrap"><div class="eyebrow">VISIT ASALAH GOLD</div><h2 data-ar="خلّينا نبقى على تواصل" data-en="STAY CONNECTED">خلّينا نبقى على تواصل</h2><p data-ar="الصويرة — واسط — العراق" data-en="Al Suwayrah — Wasit — Iraq">الصويرة — واسط — العراق</p><div class="contact-links"><a href="https://www.instagram.com/asalah_gold1/" target="_blank" rel="noopener">INSTAGRAM</a><a href="https://wa.me/9647723831444" target="_blank" rel="noopener">WHATSAPP</a><a href="mailto:asaalat7997@gmail.com">EMAIL</a></div></div></section></main>
-<footer class="footer"><div class="wrap"><a class="brand" href="#home"><img src="logo.jpg" alt="شعار أصالة الذهب"><span><b>أصالة الذهب</b><small>ASALAH GOLD</small></span></a><small>© <span id="year"></span> ASALAH GOLD — THE GOLD MUSEUM</small></div></footer>
-<div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-label="معاينة القطعة"><button class="close" aria-label="إغلاق">×</button><button class="prev" aria-label="السابق">‹</button><img alt="مجوهرات أصالة الذهب"><button class="next" aria-label="التالي">›</button></div>
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>أصالة الذهب | ASALAH GOLD — مجوهرات ذهب وفضة في الصويرة، واسط</title>
+<meta name="description" content="أصالة الذهب لتجارة الذهب والفضة والمجوهرات — الصويرة، واسط، العراق. شاهد مجموعتنا من القلائد والأطقم والأساور والسبائك بصورها الأصلية، وتواصل معنا عبر واتساب وإنستغرام.">
+<meta name="asalah-build" content="2026.10.31-1">
+<link rel="canonical" href="https://asalahgold.com/">
+<meta name="theme-color" content="#1a0a10">
+<meta name="color-scheme" content="dark">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="alternate" hreflang="ar" href="https://asalahgold.com/">
+<link rel="alternate" hreflang="en" href="https://asalahgold.com/?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://asalahgold.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ASALAH GOLD — أصالة الذهب">
+<meta property="og:title" content="أصالة الذهب | ASALAH GOLD">
+<meta property="og:description" content="أصالة تتوارثها الأجيال — مجوهرات الذهب والفضة من الصويرة، واسط، العراق.">
+<meta property="og:url" content="https://asalahgold.com/">
+<meta property="og:image" content="https://asalahgold.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ar_IQ">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/icon-64.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preload" as="image" href="gallery/opt/F0AA2880-6D27-4F97-883A-55A48D89A9E6-1600.webp" imagesrcset="gallery/opt/F0AA2880-6D27-4F97-883A-55A48D89A9E6-640.webp 640w, gallery/opt/F0AA2880-6D27-4F97-883A-55A48D89A9E6-1600.webp 1024w" imagesizes="(max-width:800px) 78vw, 36vw" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Sans+Arabic:wght@300;400;500&display=swap">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"JewelryStore","name":"أصالة الذهب","alternateName":"ASALAH GOLD","legalName":"أصالة الذهب لتجارة الذهب والفضة والمجوهرات محدودة المسؤولية","url":"https://asalahgold.com/","logo":"https://asalahgold.com/logo.jpg","image":"https://asalahgold.com/assets/og-image.jpg","telephone":"+9647723831444","email":"asaalat7997@gmail.com","address":{"@type":"PostalAddress","addressLocality":"الصويرة","addressRegion":"واسط","addressCountry":"IQ"},"sameAs":["https://www.instagram.com/asalah_gold1/"]}
+</script>
 <script>
-document.getElementById('year').textContent=new Date().getFullYear();const entry=document.getElementById('entry');let introEnded=false;function endIntro(){if(introEnded)return;introEnded=true;entry.classList.add('done');document.body.classList.add('cinematic-ready');setTimeout(()=>entry.remove(),1350)}document.getElementById('skip').onclick=endIntro;setTimeout(endIntro,3100);const nav=document.getElementById('nav');document.getElementById('navtoggle').onclick=()=>nav.classList.toggle('open');nav.querySelectorAll('a').forEach(a=>a.onclick=()=>nav.classList.remove('open'));let lang='ar';document.getElementById('lang').onclick=()=>{lang=lang==='ar'?'en':'ar';document.documentElement.lang=lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';document.getElementById('lang').textContent=lang==='ar'?'EN':'عربي';document.querySelectorAll('[data-ar]').forEach(e=>{e.innerHTML=e.dataset[lang]})};const cards=[...document.querySelectorAll('.artifact')];document.getElementById('filters').onclick=e=>{const b=e.target.closest('button');if(!b)return;document.querySelectorAll('#filters button').forEach(x=>x.classList.toggle('active',x===b));cards.forEach((c,i)=>c.hidden=b.dataset.filter==='latest'?i<36:b.dataset.filter==='earlier'?i>=36:false);document.querySelectorAll('.curated-hall').forEach(hall=>hall.hidden=![...hall.querySelectorAll('.artifact')].some(c=>!c.hidden))};const viewer=document.getElementById('viewer'),big=viewer.querySelector('img');let index=0;const visible=()=>cards.filter(x=>!x.hidden);function show(i){const v=visible();if(!v.length)return;index=(i+v.length)%v.length;big.src=v[index].querySelector('img').src;viewer.classList.add('open');document.body.classList.add('modal-open')}function close(){viewer.classList.remove('open');document.body.classList.remove('modal-open')}cards.forEach(c=>c.onclick=()=>show(visible().indexOf(c)));viewer.querySelector('.close').onclick=close;viewer.querySelector('.prev').onclick=()=>show(index-1);viewer.querySelector('.next').onclick=()=>show(index+1);viewer.onclick=e=>{if(e.target===viewer)close()};document.addEventListener('keydown',e=>{if(e.key==='Escape')close();if(viewer.classList.contains('open')&&e.key==='ArrowLeft')show(index-1);if(viewer.classList.contains('open')&&e.key==='ArrowRight')show(index+1)});if('IntersectionObserver'in window){const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(e=>obs.observe(e))}else document.querySelectorAll('.reveal').forEach(e=>e.classList.add('visible'));if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)endIntro();
-</script></body></html>
+/* decide before first paint: intro once per session, language from URL or last choice */
+(function(d){var h=d.documentElement,s;try{s=sessionStorage.getItem('ag-intro')}catch(e){}
+if(s||matchMedia('(prefers-reduced-motion: reduce)').matches)h.classList.add('no-intro','ready');else h.classList.add('intro-on');
+var q=new URLSearchParams(location.search).get('lang'),l;try{l=q||localStorage.getItem('ag-lang')}catch(e){l=q}
+if(l==='en'){h.lang='en';h.dir='ltr'}})(document);
+</script>
+<style>
+:root{
+  --ink:#0e0709;--wine-950:#14070c;--wine-900:#1c0a11;--wine-800:#2a0f1a;--wine-700:#3f1526;--wine-600:#5c1f37;
+  --gold-200:#f6e6c4;--gold-300:#ecd3a1;--gold-400:#dcb97c;--gold-500:#c69c5e;--gold-600:#9e7640;
+  --ivory:#f6eee1;--parchment:#efe6d6;--stone:#e3d6c1;--muted:#bba89d;--muted-dark:#6f5c58;
+  --line:rgba(220,185,124,.26);--line-strong:rgba(220,185,124,.55);
+  --f-ar-display:"Amiri","Times New Roman",serif;
+  --f-latin-display:"Cormorant Garamond","Amiri",Georgia,serif;
+  --f-body:"IBM Plex Sans Arabic",system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;
+  --gutter:max(clamp(18px,4vw,56px),env(safe-area-inset-left,0px),env(safe-area-inset-right,0px));--max:1320px;
+  --ease:cubic-bezier(.22,.8,.2,1);--ease-door:cubic-bezier(.76,0,.2,1);
+  --header-h:76px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:var(--header-h)}
+body{margin:0;background:var(--ink);color:var(--ivory);font:400 16px/1.9 var(--f-body);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+html.intro-on body,body.locked{overflow:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;cursor:pointer;background:none;border:0;padding:0}
+:focus-visible{outline:2px solid var(--gold-400);outline-offset:3px}
+.wrap{width:min(var(--max),100% - 2*var(--gutter));margin-inline:auto}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.kicker{font:600 12px/1.4 var(--f-latin-display);letter-spacing:.32em;text-transform:uppercase;color:var(--gold-400)}
+.display{font-family:var(--f-ar-display);font-weight:400;line-height:1.3;letter-spacing:0;margin:0}
+html[lang=en] .display{font-family:var(--f-latin-display);font-weight:500;letter-spacing:.01em;line-height:1.1}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:54px;padding:0 30px;font:500 15px/1 var(--f-body);letter-spacing:.02em;border:1px solid transparent;transition:background .35s var(--ease),color .35s var(--ease),border-color .35s,transform .35s var(--ease)}
+html[lang=en] .btn{font:600 12px/1 var(--f-body);letter-spacing:.18em;text-transform:uppercase}
+.btn-gold{background:linear-gradient(135deg,var(--gold-300),var(--gold-500));color:var(--wine-950)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 14px 36px -14px rgba(220,185,124,.7)}
+.btn-line{border-color:var(--line-strong);color:var(--gold-200)}
+.btn-line:hover{background:rgba(220,185,124,.1);border-color:var(--gold-400)}
+.btn svg{width:18px;height:18px;flex:none}
+.rule{display:flex;align-items:center;gap:14px;color:var(--gold-500)}
+.rule::before,.rule::after{content:"";height:1px;flex:1;background:linear-gradient(90deg,transparent,currentColor)}
+.rule::after{background:linear-gradient(270deg,transparent,currentColor)}
+.rule svg{width:22px;height:22px;flex:none}
+
+/* ===== Intro ===== */
+.intro{position:fixed;inset:0;z-index:300;display:grid;place-items:center;pointer-events:auto}
+html.no-intro .intro{display:none}
+.intro-door{position:absolute;top:0;bottom:0;width:50.5%;background:radial-gradient(120% 90% at 100% 50%,var(--wine-700) 0%,var(--wine-900) 46%,var(--ink) 100%);transition:transform 1.15s var(--ease-door);will-change:transform}
+.intro-door.l{left:0}
+.intro-door.r{right:0;background:radial-gradient(120% 90% at 0% 50%,var(--wine-700) 0%,var(--wine-900) 46%,var(--ink) 100%)}
+.intro-core{position:relative;z-index:2;width:min(240px,56vw);aspect-ratio:200/280;display:grid;place-items:center;transition:opacity .5s ease,transform 1s var(--ease)}
+.intro-arch{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.intro-arch path{fill:none;stroke:url(#ig);stroke-width:1.2;vector-effect:non-scaling-stroke;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.15s .1s var(--ease) forwards}
+.intro-arch .inner{stroke-width:.6;opacity:.55;animation-delay:.35s}
+.intro-logo{width:76%;mix-blend-mode:screen;opacity:0;transform:scale(.92);filter:blur(8px);animation:logoIn 1s .55s var(--ease) forwards;-webkit-mask:radial-gradient(closest-side,#000 74%,transparent 100%);mask:radial-gradient(closest-side,#000 74%,transparent 100%)}
+.intro-sheen{position:absolute;inset:0;overflow:hidden;-webkit-clip-path:url(#archClip);clip-path:url(#archClip);pointer-events:none}
+.intro-sheen::after{content:"";position:absolute;top:-10%;bottom:-10%;width:40%;left:-60%;transform:skewX(-18deg);background:linear-gradient(90deg,transparent,rgba(255,236,190,.38),transparent);animation:sheen 1.1s 1.15s ease-in-out forwards}
+.intro-skip{position:absolute;z-index:3;bottom:max(24px,env(safe-area-inset-bottom));inset-inline-start:24px;font:500 12px/1 var(--f-body);letter-spacing:.08em;color:var(--gold-300);padding:12px 18px;border:1px solid var(--line);opacity:0;animation:fadeIn .4s .8s forwards}
+.intro.open .intro-door.l{transform:translateX(-101%)}
+.intro.open .intro-door.r{transform:translateX(101%)}
+.intro.open .intro-core{opacity:0;transform:scale(1.18)}
+.intro.open .intro-skip{display:none}
+.intro.gone{display:none}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes logoIn{to{opacity:1;transform:none;filter:none}}
+@keyframes sheen{to{left:130%}}
+@keyframes fadeIn{to{opacity:1}}
+
+/* ===== Header ===== */
+.header{position:fixed;inset:0 0 auto;z-index:90;height:calc(var(--header-h) + env(safe-area-inset-top,0px));padding-top:env(safe-area-inset-top,0px);transition:background .45s,border-color .45s,backdrop-filter .45s;border-bottom:1px solid transparent}
+.header.solid{background:rgba(20,7,12,.86);-webkit-backdrop-filter:blur(16px) saturate(1.2);backdrop-filter:blur(16px) saturate(1.2);border-color:var(--line)}
+.header-in{height:100%;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;min-width:0}
+.brand img{width:46px;height:46px;border-radius:50%;object-fit:cover;border:1px solid var(--gold-600);flex:none}
+.brand b{display:block;font:700 21px/1.15 var(--f-ar-display);color:var(--gold-200)}
+.brand small{display:block;font:600 10px/1.3 var(--f-latin-display);letter-spacing:.34em;color:var(--gold-500)}
+.nav{display:flex;gap:clamp(18px,2.6vw,38px)}
+.nav a{position:relative;font-size:14px;color:#e9dccb;padding:6px 0;transition:color .3s}
+html[lang=en] .nav a{font-size:11px;letter-spacing:.2em;text-transform:uppercase}
+.nav a::after{content:"";position:absolute;inset-inline:0;bottom:0;height:1px;background:var(--gold-400);transform:scaleX(0);transition:transform .4s var(--ease)}
+.nav a:hover{color:var(--gold-300)}.nav a:hover::after{transform:scaleX(1)}
+.tools{display:flex;align-items:center;gap:10px}
+.lang{min-width:52px;height:40px;padding:0 12px;border:1px solid var(--line-strong);color:var(--gold-200);font:600 12px/1 var(--f-body);letter-spacing:.12em;transition:background .3s}
+.lang:hover{background:rgba(220,185,124,.1)}
+.icon-btn{width:40px;height:40px;display:grid;place-items:center;border:1px solid var(--line-strong);color:var(--gold-200);transition:background .3s}
+.icon-btn:hover{background:rgba(220,185,124,.1)}
+.icon-btn svg{width:18px;height:18px}
+.menu-btn{display:none}
+.menu-btn span{display:block;width:18px;height:1px;background:currentColor;box-shadow:0 -6px currentColor,0 6px currentColor}
+
+/* mobile drawer */
+.drawer{position:fixed;inset:0;z-index:95;background:radial-gradient(140% 80% at 50% 0%,var(--wine-700),var(--wine-950) 70%);display:flex;flex-direction:column;justify-content:center;padding:90px var(--gutter) 40px;opacity:0;visibility:hidden;transition:opacity .4s,visibility .4s}
+.drawer.open{opacity:1;visibility:visible}
+.drawer nav{display:flex;flex-direction:column;gap:6px}
+.drawer nav a{font:400 40px/1.5 var(--f-ar-display);color:var(--gold-200);border-bottom:1px solid var(--line);padding:6px 0;opacity:0;transform:translateY(14px);transition:opacity .5s,transform .5s var(--ease)}
+html[lang=en] .drawer nav a{font-family:var(--f-latin-display);font-size:36px}
+.drawer.open nav a{opacity:1;transform:none}
+.drawer.open nav a:nth-child(2){transition-delay:.05s}.drawer.open nav a:nth-child(3){transition-delay:.1s}.drawer.open nav a:nth-child(4){transition-delay:.15s}
+.drawer-close{position:absolute;top:18px;inset-inline-end:var(--gutter)}
+.drawer-foot{margin-top:36px;display:flex;gap:10px;flex-wrap:wrap}
+
+/* ===== Hero ===== */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;overflow:hidden;isolation:isolate;background:radial-gradient(90% 70% at 28% 50%,#4a1a2c 0%,var(--wine-900) 48%,var(--ink) 100%)}
+html[dir=ltr] .hero{background:radial-gradient(90% 70% at 72% 50%,#4a1a2c 0%,var(--wine-900) 48%,var(--ink) 100%)}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;opacity:.5;background:repeating-linear-gradient(90deg,transparent 0 119px,rgba(220,185,124,.05) 119px 120px)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:clamp(30px,5vw,90px);padding:calc(var(--header-h) + 30px) 0 90px}
+.hero-copy{position:relative;z-index:2}
+.hero-copy .kicker{display:flex;align-items:center;gap:14px}
+.hero-copy .kicker::before{content:"";width:46px;height:1px;background:var(--gold-500)}
+.hero h1{font-size:clamp(64px,9.5vw,148px);line-height:1.05;margin:22px 0 10px;color:var(--gold-200);background:linear-gradient(180deg,#fbf0d6 10%,var(--gold-400) 75%,var(--gold-600));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;padding-bottom:.12em}
+html[lang=en] .hero h1{font-size:clamp(54px,8vw,124px);letter-spacing:.02em}
+.hero h2{font-size:clamp(28px,3.3vw,46px);color:var(--gold-300);margin:0}
+.hero p{max-width:440px;color:#dccdc3;font-size:17px;margin:20px 0 38px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px}
+.hero-art{position:relative;justify-self:center;width:min(440px,100%);aspect-ratio:200/280}
+.arch-media{position:absolute;inset:0;-webkit-clip-path:url(#archClip);clip-path:url(#archClip);background:var(--wine-800);overflow:hidden}
+.arch-media img{width:100%;height:100%;object-fit:cover;object-position:50% 58%;transition:transform 1s var(--ease)}
+.hero-art .arch-media img{transform-origin:50% 85%;transform:scale(1.32);transition:transform 2.6s var(--ease)}
+html.ready .hero-art .arch-media img{transform:scale(1.16)}
+.arch-line{position:absolute;inset:-14px -14px 0;width:calc(100% + 28px);height:calc(100% + 14px);overflow:visible;pointer-events:none}
+.arch-line path{fill:none;stroke:url(#ig);stroke-width:1;vector-effect:non-scaling-stroke}
+.arch-line .inner{opacity:.4}
+.hero-art .tag{position:absolute;bottom:22px;inset-inline:0;text-align:center;font:600 11px/1 var(--f-latin-display);letter-spacing:.4em;color:var(--gold-200);text-shadow:0 2px 12px #000}
+.hero-foot{position:absolute;bottom:24px;inset-inline:var(--gutter);display:flex;justify-content:space-between;align-items:center;font:600 11px/1 var(--f-latin-display);letter-spacing:.3em;color:var(--gold-500);text-transform:uppercase}
+.scroll-cue{display:flex;align-items:center;gap:10px}
+.scroll-cue i{width:1px;height:34px;background:linear-gradient(var(--gold-400),transparent);animation:cue 2.2s ease-in-out infinite}
+@keyframes cue{0%,100%{transform:scaleY(.4);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}}
+/* hero choreography */
+.hero-copy>*,.hero-art,.hero-foot{opacity:0;transform:translateY(22px);transition:opacity .9s var(--ease),transform 1.1s var(--ease)}
+.hero-art{transform:translateY(0) scale(.97)}
+html.ready .hero-copy>*,html.ready .hero-art,html.ready .hero-foot{opacity:1;transform:none}
+html.ready .hero-copy>*:nth-child(2){transition-delay:.08s}html.ready .hero-copy>*:nth-child(3){transition-delay:.16s}html.ready .hero-copy>*:nth-child(4){transition-delay:.24s}html.ready .hero-copy>*:nth-child(5){transition-delay:.32s}html.ready .hero-art{transition-delay:.05s}html.ready .hero-foot{transition-delay:.5s}
+html.no-intro .hero-copy>*,html.no-intro .hero-art,html.no-intro .hero-foot{transition-duration:.6s}
+
+/* ===== Statement (light) ===== */
+.light{background:var(--parchment);color:#2a171e}
+.light .kicker{color:#8d6638}
+.statement{padding:clamp(80px,11vw,150px) 0;text-align:center}
+.statement h2{font-size:clamp(36px,5vw,70px);max-width:15ch;margin:22px auto 0;color:#2a1119}
+html[lang=en] .statement h2{max-width:18ch}
+.statement p{max-width:640px;margin:24px auto 0;color:var(--muted-dark);font-size:17px}
+.statement .rule{max-width:280px;margin:44px auto 0;color:#a9824c}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:0;max-width:980px;margin:56px auto 0;border-block:1px solid #cbb795}
+.pillar{padding:30px 20px}
+.pillar+.pillar{border-inline-start:1px solid #cbb795}
+.pillar b{display:block;font:400 28px/1.3 var(--f-ar-display);color:#3a1522}
+html[lang=en] .pillar b{font:500 26px/1.2 var(--f-latin-display)}
+.pillar span{font:600 10px/1 var(--f-latin-display);letter-spacing:.3em;color:#9b7a4e;text-transform:uppercase}
+
+/* ===== Collections ===== */
+.collections{padding:clamp(80px,10vw,140px) 0;background:linear-gradient(180deg,var(--wine-950),var(--wine-900))}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:clamp(36px,5vw,60px)}
+.sec-head h2{font-size:clamp(40px,5.4vw,78px);color:var(--gold-200);margin-top:14px}
+.sec-head p{max-width:380px;margin:0;color:var(--muted);font-size:15px}
+.halls{display:grid;grid-template-columns:repeat(5,1fr);gap:clamp(12px,1.6vw,22px)}
+.hall{position:relative;display:block;text-align:center}
+.hall .frame{position:relative;aspect-ratio:200/280}
+.hall .arch-media img{transition:transform 1s var(--ease)}
+.hall:hover .arch-media img{transform:scale(1.06)}
+.hall .arch-line{inset:-8px -8px 0;width:calc(100% + 16px);height:calc(100% + 8px);opacity:.7;transition:opacity .4s}
+.hall:hover .arch-line{opacity:1}
+.hall h3{font-size:clamp(24px,2.2vw,32px);color:var(--gold-200);margin:22px 0 2px}
+.hall small{font:600 11px/1 var(--f-latin-display);letter-spacing:.28em;color:var(--gold-500);text-transform:uppercase}
+.hall:nth-child(even){margin-top:56px}
+
+/* ===== Story ===== */
+.story{display:grid;grid-template-columns:1fr 1fr;background:var(--wine-800);overflow:hidden}
+.story-media{position:relative;min-height:560px}
+.story-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.story-media::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 60%,rgba(42,15,26,.6))}
+html[dir=ltr] .story-media::after{background:linear-gradient(270deg,transparent 60%,rgba(42,15,26,.6))}
+.story-copy{padding:clamp(56px,8vw,120px) clamp(24px,6vw,100px);display:flex;flex-direction:column;justify-content:center}
+.story-copy h2{font-size:clamp(38px,4.6vw,66px);color:var(--gold-200);margin:18px 0 22px}
+.story-copy p{color:#dbcabf;font-size:17px;margin:0 0 16px;max-width:520px}
+.story-copy .place{margin-top:24px;display:flex;align-items:center;gap:12px;font:600 12px/1 var(--f-latin-display);letter-spacing:.3em;color:var(--gold-400)}
+.story-copy .place svg{width:18px;height:18px}
+
+/* ===== Gallery ===== */
+.gallery{padding:clamp(80px,10vw,140px) 0 clamp(90px,10vw,150px);background:linear-gradient(180deg,var(--ink),var(--wine-950) 40%,var(--wine-900))}
+.toolbar{position:sticky;top:var(--header-h);z-index:20;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0;margin-bottom:28px;background:rgba(20,7,12,.97);border-bottom:1px solid transparent;transition:border-color .3s}
+.toolbar.stuck{border-color:var(--line)}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding:2px;margin:-2px;scroll-snap-type:x proximity}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;scroll-snap-align:start;display:inline-flex;align-items:center;gap:8px;height:42px;padding:0 18px;border:1px solid var(--line);color:#e4d5c3;font-size:14px;white-space:nowrap;transition:background .3s,color .3s,border-color .3s}
+html[lang=en] .chip{font-size:12px;letter-spacing:.08em}
+.chip em{font:600 12px/1 var(--f-latin-display);font-style:normal;color:var(--gold-500)}
+.chip:hover{border-color:var(--line-strong)}
+.chip[aria-pressed=true]{background:var(--gold-400);border-color:var(--gold-400);color:var(--wine-950)}
+.chip[aria-pressed=true] em{color:var(--wine-700)}
+.chip.sep{margin-inline-start:10px}
+.view-toggle{display:flex;flex:none;border:1px solid var(--line)}
+.view-toggle button{width:42px;height:40px;display:grid;place-items:center;color:var(--muted)}
+.view-toggle button[aria-pressed=true]{color:var(--wine-950);background:var(--gold-400)}
+.view-toggle svg{width:16px;height:16px}
+.count-line{font-size:14px;color:var(--muted);margin:-10px 0 26px}
+.masonry{columns:4 260px;column-gap:clamp(12px,1.6vw,22px)}
+.masonry.large{columns:2 420px}
+.piece{break-inside:avoid;margin:0 0 clamp(12px,1.6vw,22px);position:relative;animation:pieceIn .6s var(--ease) both}
+.piece[hidden]{display:none}
+.piece-btn{display:block;width:100%;position:relative;overflow:hidden;background:var(--ph,#2a0f1a);border:1px solid var(--line);padding:7px;transition:border-color .4s}
+.piece-btn img{width:100%;aspect-ratio:var(--ar);object-fit:cover;background:var(--ph);transition:transform .9s var(--ease),opacity .5s}
+.piece-btn img.loading{opacity:0}
+.piece-btn::after{content:"";position:absolute;inset:7px;background:linear-gradient(180deg,transparent 55%,rgba(14,7,9,.75));opacity:0;transition:opacity .4s}
+.piece-btn:hover{border-color:var(--line-strong)}
+.piece-btn:hover img{transform:scale(1.035)}
+.piece-btn:hover::after{opacity:1}
+.piece-view{position:absolute;z-index:1;bottom:20px;inset-inline-start:20px;display:flex;align-items:center;gap:8px;font-size:13px;color:var(--gold-200);opacity:0;transform:translateY(8px);transition:opacity .4s,transform .4s var(--ease)}
+.piece-btn:hover .piece-view{opacity:1;transform:none}
+.piece-view svg{width:16px;height:16px}
+.piece figcaption{display:flex;justify-content:space-between;align-items:center;padding:12px 2px 0;font-size:13px;color:#cbb9a8}
+.piece .n{font:600 13px/1 var(--f-latin-display);letter-spacing:.18em;color:var(--gold-400)}
+.piece .new{font:600 10px/1 var(--f-latin-display);letter-spacing:.2em;color:var(--wine-950);background:var(--gold-400);padding:5px 7px;position:absolute;top:18px;inset-inline-end:18px;z-index:1}
+@keyframes pieceIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+
+/* ===== Lightbox ===== */
+.lb{position:fixed;inset:0;z-index:200;display:grid;grid-template-rows:auto 1fr auto;background:rgba(10,4,7,.97);opacity:0;visibility:hidden;transition:opacity .35s,visibility .35s}
+.lb.open{opacity:1;visibility:visible}
+.lb-top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:max(14px,env(safe-area-inset-top)) var(--gutter) 10px}
+.lb-meta{display:flex;align-items:baseline;gap:14px;min-width:0}
+.lb-meta .n{font:600 20px/1 var(--f-latin-display);letter-spacing:.14em;color:var(--gold-300)}
+.lb-meta .c{font-size:14px;color:var(--muted)}
+.lb-meta .i{font:500 13px/1 var(--f-latin-display);letter-spacing:.2em;color:var(--muted);direction:ltr;unicode-bidi:isolate}
+.lb-stage{position:relative;overflow:hidden;touch-action:pan-y;display:grid;place-items:center;min-height:0}
+.lb-track{position:relative;width:100%;height:100%;display:grid;place-items:center}
+.lb-img{max-width:min(92vw,1100px);max-height:100%;width:auto;height:auto;object-fit:contain;transition:transform .45s var(--ease),opacity .3s;cursor:zoom-in;user-select:none;-webkit-user-drag:none}
+.lb-img.zoom{transform:scale(2.1);cursor:zoom-out}
+.lb-img.fade{opacity:0}
+.lb-nav{position:absolute;top:50%;translate:0 -50%;z-index:2;width:52px;height:52px;display:grid;place-items:center;border:1px solid var(--line-strong);background:rgba(28,10,17,.7);color:var(--gold-200);transition:background .3s}
+.lb-nav:hover{background:var(--wine-700)}
+.lb-nav svg{width:20px;height:20px}
+.lb-prev{inset-inline-start:var(--gutter)}.lb-next{inset-inline-end:var(--gutter)}
+html[dir=ltr] .lb-prev svg,html[dir=rtl] .lb-next svg{transform:scaleX(-1)}
+.lb-bottom{padding:10px var(--gutter) max(16px,env(safe-area-inset-bottom));display:grid;gap:12px}
+.lb-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.lb-actions .btn{min-height:46px;padding:0 20px;font-size:14px}
+html[lang=en] .lb-actions .btn{font-size:11px}
+.lb-thumbs{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;justify-content:safe center;padding:2px}
+.lb-thumbs::-webkit-scrollbar{display:none}
+.lb-thumbs button{flex:none;width:54px;height:68px;border:1px solid transparent;opacity:.45;transition:opacity .3s,border-color .3s;background:var(--wine-800)}
+.lb-thumbs button[aria-current=true]{opacity:1;border-color:var(--gold-400)}
+.lb-thumbs img{width:100%;height:100%;object-fit:cover}
+.toast{position:fixed;z-index:260;bottom:110px;left:50%;translate:-50% 20px;background:var(--gold-300);color:var(--wine-950);padding:12px 20px;font-size:14px;opacity:0;transition:opacity .3s,translate .3s;pointer-events:none}
+.toast.show{opacity:1;translate:-50% 0}
+
+/* ===== Contact ===== */
+.contact{padding:clamp(80px,10vw,140px) 0;text-align:center}
+.contact h2{font-size:clamp(40px,5.5vw,80px);margin:18px 0 8px;color:#2a1119}
+.contact .addr{color:var(--muted-dark);font-size:17px;margin:0}
+.channels{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(10px,1.6vw,20px);max-width:980px;margin:48px auto 0}
+.channel{display:flex;flex-direction:column;align-items:center;gap:10px;padding:34px 18px;background:var(--wine-800);color:var(--gold-200);border:1px solid transparent;transition:transform .4s var(--ease),background .4s,box-shadow .4s}
+.channel:hover{transform:translateY(-4px);background:var(--wine-700);box-shadow:0 22px 40px -24px rgba(42,15,26,.9)}
+.channel svg{width:26px;height:26px;color:var(--gold-400)}
+.channel b{font:600 12px/1 var(--f-latin-display);letter-spacing:.32em}
+.channel span{font-size:14px;color:#dccab9;direction:ltr;unicode-bidi:isolate}
+
+/* ===== Footer ===== */
+.footer{background:var(--ink);border-top:1px solid var(--line);padding:46px 0 calc(40px + env(safe-area-inset-bottom))}
+.footer-in{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.footer nav{display:flex;gap:22px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+.footer nav a:hover{color:var(--gold-300)}
+.footer .legal{width:100%;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:22px;margin-top:6px;border-top:1px solid rgba(220,185,124,.12);font-size:12px;color:#8f7d73}
+.footer .legal span:last-child{font:600 11px/1.6 var(--f-latin-display);letter-spacing:.24em}
+
+/* floating whatsapp (mobile) */
+.fab{position:fixed;z-index:80;bottom:max(18px,env(safe-area-inset-bottom));inset-inline-start:18px;width:56px;height:56px;border-radius:50%;display:none;place-items:center;background:linear-gradient(135deg,var(--gold-300),var(--gold-500));color:var(--wine-950);box-shadow:0 12px 30px -10px rgba(0,0,0,.7);transform:scale(.6);opacity:0;transition:transform .45s var(--ease),opacity .45s}
+.fab.show{transform:none;opacity:1}
+.fab svg{width:26px;height:26px}
+
+/* reveal on scroll */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .9s var(--ease),transform 1s var(--ease)}
+.rv.in{opacity:1;transform:none}
+
+/* ===== Responsive ===== */
+@media (max-width:1080px){
+  .halls{grid-template-columns:repeat(3,1fr);row-gap:40px}
+  .hall:nth-child(even){margin-top:0}
+  .hall:nth-child(n+4){grid-column:span 1}
+}
+@media (max-width:900px){
+  :root{--header-h:66px}
+  .nav,.tools .ig{display:none}
+  .menu-btn{display:grid}
+  .brand img{width:40px;height:40px}.brand b{font-size:18px}.brand small{font-size:9px;letter-spacing:.26em}
+  .hero{align-items:flex-start}
+  .hero-grid{grid-template-columns:1fr;gap:34px;padding:calc(var(--header-h) + 22px) 0 96px;text-align:center}
+  .hero-art{order:-1;width:min(300px,68vw)}
+  .hero-copy .kicker{justify-content:center}.hero-copy .kicker::before{display:none}
+  .hero h1{margin:12px 0 6px}
+  .hero p{margin:14px auto 28px;font-size:16px}
+  .hero-actions{justify-content:center}
+  .hero-actions .btn{flex:1 1 150px}
+  .hero-foot .loc{display:none}.hero-foot{justify-content:center}
+  .sec-head{flex-direction:column;align-items:flex-start;gap:12px}
+  .story{grid-template-columns:1fr}.story-media{min-height:380px}
+  .story-media::after{background:linear-gradient(0deg,rgba(42,15,26,.85),transparent 45%)!important}
+  .pillars{grid-template-columns:1fr;border:0}
+  .pillar{border-bottom:1px solid #cbb795}.pillar+.pillar{border-inline-start:0}
+  .channels{grid-template-columns:1fr}
+  .channel{flex-direction:row;justify-content:flex-start;padding:22px;gap:16px;text-align:start}
+  .channel b{min-width:96px}
+  .fab{display:grid}
+  .lb-nav{display:none}
+}
+@media (max-width:640px){
+  .halls{grid-template-columns:repeat(2,1fr);gap:26px 14px}
+  .hall:last-child{grid-column:1/-1;width:62%;justify-self:center}
+  .masonry{columns:2;column-gap:10px}
+  .masonry.large{columns:1}
+  .piece{margin-bottom:10px}
+  .piece-btn{padding:4px}.piece-btn::after{inset:4px}
+  .piece figcaption{font-size:12px;padding-top:8px}
+  .piece .n{font-size:12px;letter-spacing:.12em}
+  .piece .new{top:10px;inset-inline-end:10px;font-size:9px;padding:4px 5px}
+  .piece-view{display:none}
+  .toolbar{flex-direction:column;align-items:stretch;gap:10px;margin-inline:calc(-1*var(--gutter));padding-inline:var(--gutter)}
+  .view-toggle{align-self:flex-end;position:absolute;top:-46px;inset-inline-end:var(--gutter)}
+  .lb-actions .btn{flex:1 1 40%;padding:0 12px}
+  .hero h2{font-size:28px}
+  html[lang=en] .hero-actions .btn{letter-spacing:.1em;font-size:11px}
+  .statement p,.story-copy p{font-size:16px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .rv,.hero-copy>*,.hero-art,.hero-foot{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<!-- shared SVG defs: Abbasid-style pointed arch (Iraqi architectural motif) + gold gradient -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="ig" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6e6c4"/><stop offset=".5" stop-color="#c69c5e"/><stop offset="1" stop-color="#f1d9a6"/></linearGradient>
+    <clipPath id="archClip" clipPathUnits="objectBoundingBox"><path d="M0,1 V.4 C0,.2 .3,.07 .5,0 C.7,.07 1,.2 1,.4 V1 Z"/></clipPath>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 1.9 2.9 4.6 4 1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.5-.3Z"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6" fill="currentColor"/></g></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m3.5 6 8.5 7 8.5-7"/></g></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-zoom" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5M10.5 7.5v6M7.5 10.5h6"/></g></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" d="m5 5 14 14M19 5 5 19"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 15V3m-4 4 4-4 4 4"/><path d="M5 11v9h14v-9"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><g fill="currentColor"><rect x="3" y="3" width="8" height="8"/><rect x="13" y="3" width="8" height="8"/><rect x="3" y="13" width="8" height="8"/><rect x="13" y="13" width="8" height="8"/></g></symbol>
+    <symbol id="i-large" viewBox="0 0 24 24"><g fill="currentColor"><rect x="3" y="3" width="18" height="8"/><rect x="3" y="13" width="18" height="8"/></g></symbol>
+    <symbol id="i-rosette" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1"><circle cx="12" cy="12" r="2.2"/><path d="M12 3.5c1.6 2.4 1.6 4.5 0 6.3-1.6-1.8-1.6-3.9 0-6.3Zm0 17c-1.6-2.4-1.6-4.5 0-6.3 1.6 1.8 1.6 3.9 0 6.3ZM3.5 12c2.4-1.6 4.5-1.6 6.3 0-1.8 1.6-3.9 1.6-6.3 0Zm17 0c-2.4 1.6-4.5 1.6-6.3 0 1.8-1.6 3.9-1.6 6.3 0ZM6 6c2.8.5 4.3 2 4.3 4.3C8 10.3 6.5 8.8 6 6Zm12 12c-2.8-.5-4.3-2-4.3-4.3 2.3 0 3.8 1.5 4.3 4.3ZM18 6c-.5 2.8-2 4.3-4.3 4.3 0-2.3 1.5-3.8 4.3-4.3ZM6 18c.5-2.8 2-4.3 4.3-4.3 0 2.3-1.5 3.8-4.3 4.3Z"/></g></symbol>
+  </defs>
+</svg>
+
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro-door l"></div><div class="intro-door r"></div>
+  <div class="intro-core">
+    <svg class="intro-arch" viewBox="0 0 200 280" preserveAspectRatio="none"><path pathLength="1" d="M2 280 V112 C2 56 60 20 100 2 C140 20 198 56 198 112 V280"/><path class="inner" pathLength="1" d="M14 280 V116 C14 66 66 34 100 16 C134 34 186 66 186 116 V280"/></svg>
+    <div class="intro-sheen"></div>
+    <img class="intro-logo" src="assets/logo-320.webp" width="297" height="320" alt="">
+  </div>
+  <button class="intro-skip" id="skip" type="button" data-ar="تخطّي المقدّمة" data-en="Skip intro">تخطّي المقدّمة</button>
+</div>
+
+<header class="header" id="header">
+  <div class="wrap header-in">
+    <a class="brand" href="#home" aria-label="أصالة الذهب — الصفحة الرئيسية"><img src="logo.jpg" width="46" height="46" alt="شعار أصالة الذهب"><span><b>أصالة الذهب</b><small>ASALAH GOLD</small></span></a>
+    <nav class="nav" aria-label="القائمة الرئيسية">
+      <a href="#home" data-ar="المدخل" data-en="Entrance">المدخل</a>
+      <a href="#halls" data-ar="قاعات العرض" data-en="Collections">قاعات العرض</a>
+      <a href="#gallery" data-ar="المقتنيات" data-en="Gallery">المقتنيات</a>
+      <a href="#contact" data-ar="تواصل" data-en="Contact">تواصل</a>
+    </nav>
+    <div class="tools">
+      <a class="icon-btn ig" href="https://www.instagram.com/asalah_gold1/" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
+      <button class="lang" id="lang" type="button" aria-label="Switch language">EN</button>
+      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="القائمة" aria-expanded="false" aria-controls="drawer"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <button class="icon-btn drawer-close" id="drawerClose" type="button" aria-label="إغلاق"><svg><use href="#i-close"/></svg></button>
+  <nav>
+    <a href="#home" data-ar="المدخل" data-en="Entrance">المدخل</a>
+    <a href="#halls" data-ar="قاعات العرض" data-en="Collections">قاعات العرض</a>
+    <a href="#gallery" data-ar="المقتنيات" data-en="Gallery">المقتنيات</a>
+    <a href="#contact" data-ar="تواصل" data-en="Contact">تواصل</a>
+  </nav>
+  <div class="drawer-foot">
+    <a class="btn btn-gold" href="https://wa.me/9647723831444" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp</a>
+    <a class="btn btn-line" href="https://www.instagram.com/asalah_gold1/" target="_blank" rel="noopener"><svg><use href="#i-ig"/></svg>Instagram</a>
+  </div>
+</div>
+
+<main>
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <div class="kicker">ASALAH GOLD · THE ART OF GOLD</div>
+      <h1 class="display" data-ar="أصالة الذهب" data-en="Asalah Gold">أصالة الذهب</h1>
+      <h2 class="display" data-ar="أصالة تتوارثها الأجيال" data-en="A legacy across generations">أصالة تتوارثها الأجيال</h2>
+      <p data-ar="عالمٌ من الذهب، تُحكى فيه الفخامة بالتفاصيل." data-en="A world of gold, where every detail tells a story.">عالمٌ من الذهب، تُحكى فيه الفخامة بالتفاصيل.</p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="#gallery" data-ar="اكتشف مجموعتنا" data-en="Explore the collection">اكتشف مجموعتنا</a>
+        <a class="btn btn-line" href="#contact" data-ar="تواصل معنا" data-en="Contact us">تواصل معنا</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="arch-media"><img src="gallery/opt/F0AA2880-6D27-4F97-883A-55A48D89A9E6-1600.webp" srcset="gallery/opt/F0AA2880-6D27-4F97-883A-55A48D89A9E6-640.webp 640w, gallery/opt/F0AA2880-6D27-4F97-883A-55A48D89A9E6-1600.webp 1024w" sizes="(max-width:800px) 78vw, 36vw" width="1024" height="1536" fetchpriority="high" alt="قلادة ذهب من أصالة الذهب على مجسّم مخملي برغندي"></div>
+      <svg class="arch-line" viewBox="0 0 200 280" preserveAspectRatio="none" aria-hidden="true"><path d="M1 280 V112 C1 56 60 20 100 1 C140 20 199 56 199 112 V280"/><path class="inner" d="M9 280 V115 C9 63 64 30 100 12 C136 30 191 63 191 115 V280"/></svg>
+    </div>
+  </div>
+  <div class="hero-foot"><span class="loc" data-ar="الصويرة · واسط · العراق" data-en="Al-Suwayrah · Wasit · Iraq">الصويرة · واسط · العراق</span><a class="scroll-cue" href="#intro-text"><i></i><span>Scroll</span></a><span class="loc">ASALAH GOLD / IRAQ</span></div>
+</section>
+
+<section class="light statement" id="intro-text">
+  <div class="wrap">
+    <div class="kicker rv">A DIFFERENT WAY TO SEE GOLD</div>
+    <h2 class="display rv" data-ar="كل قطعة تحفة، وكل تحفة إلها حكاية" data-en="Every piece a masterpiece, every masterpiece a story">كل قطعة تحفة، وكل تحفة إلها حكاية</h2>
+    <p class="rv" data-ar="من أصالة الذهب، نقدّم تجربة عرض تستحقها المجوهرات: هدوء، إضاءة، وتفاصيل تترك القطعة تتكلم عن نفسها." data-en="At Asalah Gold we show jewelry the way it deserves: calm, light and detail — letting every piece speak for itself.">من أصالة الذهب، نقدّم تجربة عرض تستحقها المجوهرات: هدوء، إضاءة، وتفاصيل تترك القطعة تتكلم عن نفسها.</p>
+    <div class="pillars rv">
+      <div class="pillar"><b data-ar="الثقة" data-en="Trust">الثقة</b><span>TRUST</span></div>
+      <div class="pillar"><b data-ar="تصاميم حصرية" data-en="Exclusive designs">تصاميم حصرية</b><span>EXCLUSIVE DESIGNS</span></div>
+      <div class="pillar"><b data-ar="أصالة في كل تفصيلة" data-en="Heritage in every detail">أصالة في كل تفصيلة</b><span>HERITAGE IN DETAIL</span></div>
+    </div>
+    <div class="rule rv"><svg><use href="#i-rosette"/></svg></div>
+  </div>
+</section>
+
+<section class="collections" id="halls">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="kicker rv">THE EXHIBITION HALLS</div><h2 class="display rv" data-ar="قاعات العرض" data-en="The Collections">قاعات العرض</h2></div>
+      <p class="rv" data-ar="اختر القاعة لتنتقل مباشرة إلى قطعها في المعرض." data-en="Choose a hall to jump straight to its pieces in the gallery.">اختر القاعة لتنتقل مباشرة إلى قطعها في المعرض.</p>
+    </div>
+    <div class="halls">
+      <a class="hall rv" href="#gallery" data-go="necklaces"><div class="frame"><div class="arch-media"><img loading="lazy" decoding="async" src="gallery/opt/488c54c0-b481-44d2-acdb-1b016e2a38e7-640.webp" width="640" height="853" alt="قلادة ذهب عريضة من أصالة الذهب"></div><svg class="arch-line" viewBox="0 0 200 280" preserveAspectRatio="none" aria-hidden="true"><path d="M1 280 V112 C1 56 60 20 100 1 C140 20 199 56 199 112 V280"/></svg></div><h3 class="display" data-ar="القلائد" data-en="Necklaces">القلائد</h3><small>NECKLACES</small></a>
+      <a class="hall rv" href="#gallery" data-go="sets"><div class="frame"><div class="arch-media"><img loading="lazy" decoding="async" src="gallery/opt/48D10393-8817-4DC5-A7CB-B9CF640C9F48-640.webp" width="640" height="640" alt="طقم ذهب كامل من أصالة الذهب"></div><svg class="arch-line" viewBox="0 0 200 280" preserveAspectRatio="none" aria-hidden="true"><path d="M1 280 V112 C1 56 60 20 100 1 C140 20 199 56 199 112 V280"/></svg></div><h3 class="display" data-ar="الأطقم" data-en="Sets">الأطقم</h3><small>SETS</small></a>
+      <a class="hall rv" href="#gallery" data-go="bangles"><div class="frame"><div class="arch-media"><img loading="lazy" decoding="async" src="gallery/opt/960fd9ab-d3a2-4761-a033-ffcbfe6e0e71-640.webp" width="640" height="853" alt="أساور ذهب من أصالة الذهب"></div><svg class="arch-line" viewBox="0 0 200 280" preserveAspectRatio="none" aria-hidden="true"><path d="M1 280 V112 C1 56 60 20 100 1 C140 20 199 56 199 112 V280"/></svg></div><h3 class="display" data-ar="الأساور" data-en="Bangles">الأساور</h3><small>BANGLES</small></a>
+      <a class="hall rv" href="#gallery" data-go="bullion"><div class="frame"><div class="arch-media"><img loading="lazy" decoding="async" src="gallery/opt/c4f7a3c4-77af-411e-aa35-2f4d96e7f723-640.webp" width="640" height="853" alt="سبائك من أصالة الذهب"></div><svg class="arch-line" viewBox="0 0 200 280" preserveAspectRatio="none" aria-hidden="true"><path d="M1 280 V112 C1 56 60 20 100 1 C140 20 199 56 199 112 V280"/></svg></div><h3 class="display" data-ar="السبائك" data-en="Bullion">السبائك</h3><small>BULLION</small></a>
+      <a class="hall rv" href="#gallery" data-go="showroom"><div class="frame"><div class="arch-media"><img loading="lazy" decoding="async" src="gallery/opt/IMG_2634-640.webp" width="640" height="1138" alt="واجهة محل أصالة الذهب"></div><svg class="arch-line" viewBox="0 0 200 280" preserveAspectRatio="none" aria-hidden="true"><path d="M1 280 V112 C1 56 60 20 100 1 C140 20 199 56 199 112 V280"/></svg></div><h3 class="display" data-ar="صالة العرض" data-en="The Showroom">صالة العرض</h3><small>THE SHOWROOM</small></a>
+    </div>
+  </div>
+</section>
+
+<section class="story">
+  <div class="story-media"><img loading="lazy" decoding="async" src="gallery/opt/IMG_2751-1600.webp" srcset="gallery/opt/IMG_2751-640.webp 640w, gallery/opt/IMG_2751-1600.webp 1233w" sizes="(max-width:900px) 100vw, 50vw" width="1233" height="1251" alt="أساور ذهب معروضة باسم شركة أصالة الذهب"></div>
+  <div class="story-copy">
+    <div class="kicker rv">THE ASALAH PHILOSOPHY</div>
+    <h2 class="display rv" data-ar="الذهب فنّ قبل أن يكون زينة" data-en="Gold is an art before it is an ornament">الذهب فنّ قبل أن يكون زينة</h2>
+    <p class="rv" data-ar="أصالة الذهب لتجارة الذهب والفضة والمجوهرات محدودة المسؤولية – شركة خاصة. هوية عراقية، وتقدير للجمال الذي يرافق اللحظات المهمة." data-en="Asalah Gold is a private Iraqi company trading in gold, silver and jewelry — an Iraqi identity, and an appreciation for the beauty that accompanies life’s important moments.">أصالة الذهب لتجارة الذهب والفضة والمجوهرات محدودة المسؤولية – شركة خاصة. هوية عراقية، وتقدير للجمال الذي يرافق اللحظات المهمة.</p>
+    <div class="place rv"><svg><use href="#i-pin"/></svg><span data-ar="الصويرة — واسط — العراق" data-en="AL-SUWAYRAH — WASIT — IRAQ">الصويرة — واسط — العراق</span></div>
+  </div>
+</section>
+
+<section class="gallery" id="gallery">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="kicker rv">THE PERMANENT COLLECTION</div><h2 class="display rv" data-ar="المقتنيات الذهبية" data-en="The Gold Collection">المقتنيات الذهبية</h2></div>
+      <p class="rv" data-ar="كل القطع بصورها الأصلية. اضغط على أي قطعة لمشاهدتها بحجم أكبر، أو للاستفسار عنها مباشرة عبر واتساب." data-en="Every piece in its original photograph. Tap any piece for a closer look, or to ask about it on WhatsApp.">كل القطع بصورها الأصلية. اضغط على أي قطعة لمشاهدتها بحجم أكبر، أو للاستفسار عنها مباشرة عبر واتساب.</p>
+    </div>
+    <div class="toolbar" id="toolbar">
+      <div class="chips" id="chips" role="group" aria-label="تصفية المقتنيات">
+        <button class="chip" data-f="all" aria-pressed="true"><span data-ar="جميع المقتنيات" data-en="All pieces">جميع المقتنيات</span><em></em></button>
+        <button class="chip" data-f="necklaces" aria-pressed="false"><span data-ar="القلائد" data-en="Necklaces">القلائد</span><em></em></button>
+        <button class="chip" data-f="sets" aria-pressed="false"><span data-ar="الأطقم" data-en="Sets">الأطقم</span><em></em></button>
+        <button class="chip" data-f="bangles" aria-pressed="false"><span data-ar="الأساور" data-en="Bangles">الأساور</span><em></em></button>
+        <button class="chip" data-f="bullion" aria-pressed="false"><span data-ar="السبائك" data-en="Bullion">السبائك</span><em></em></button>
+        <button class="chip" data-f="showroom" aria-pressed="false"><span data-ar="صالة العرض" data-en="Showroom">صالة العرض</span><em></em></button>
+        <button class="chip sep" data-f="latest" aria-pressed="false"><span data-ar="أحدث الإضافات" data-en="Latest additions">أحدث الإضافات</span><em></em></button>
+        <button class="chip" data-f="earlier" aria-pressed="false"><span data-ar="المجموعة السابقة" data-en="Earlier collection">المجموعة السابقة</span><em></em></button>
+      </div>
+      <div class="view-toggle" role="group" aria-label="طريقة العرض">
+        <button type="button" data-view="grid" aria-pressed="true" aria-label="شبكة"><svg><use href="#i-grid"/></svg></button>
+        <button type="button" data-view="large" aria-pressed="false" aria-label="عرض كبير"><svg><use href="#i-large"/></svg></button>
+      </div>
+    </div>
+    <p class="count-line" id="countLine" aria-live="polite"></p>
+    <div class="masonry" id="masonry">
+<!--GALLERY-->
+<figure class="piece" id="p01" data-n="01" data-cat="showroom" data-latest="0" data-stem="IMG_2633" data-file="IMG_2633.jpeg" style="--ar:899/1599;--ph:#4c4135"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 01"><img src="gallery/opt/IMG_2633-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="من صالة عرض أصالة الذهب — قطعة Nº 01"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 01</span><span class="cat">صالة العرض</span></figcaption></figure>
+<figure class="piece" id="p02" data-n="02" data-cat="showroom" data-latest="0" data-stem="IMG_2634" data-file="IMG_2634.jpeg" style="--ar:899/1599;--ph:#504942"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 02"><img src="gallery/opt/IMG_2634-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="من صالة عرض أصالة الذهب — قطعة Nº 02"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 02</span><span class="cat">صالة العرض</span></figcaption></figure>
+<figure class="piece" id="p03" data-n="03" data-cat="showroom" data-latest="0" data-stem="IMG_2635" data-file="IMG_2635.jpeg" style="--ar:1599/899;--ph:#413a33"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 03"><img src="gallery/opt/IMG_2635-640.webp" width="640" height="360" loading="lazy" decoding="async" alt="من صالة عرض أصالة الذهب — قطعة Nº 03"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 03</span><span class="cat">صالة العرض</span></figcaption></figure>
+<figure class="piece" id="p04" data-n="04" data-cat="sets" data-latest="0" data-stem="IMG_2639" data-file="IMG_2639.jpeg" style="--ar:899/1599;--ph:#585045"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 04"><img src="gallery/opt/IMG_2639-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="طقم ذهب أصالة الذهب — قطعة Nº 04"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 04</span><span class="cat">الأطقم</span></figcaption></figure>
+<figure class="piece" id="p05" data-n="05" data-cat="showroom" data-latest="0" data-stem="IMG_2640" data-file="IMG_2640.jpeg" style="--ar:899/1599;--ph:#524537"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 05"><img src="gallery/opt/IMG_2640-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="من صالة عرض أصالة الذهب — قطعة Nº 05"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 05</span><span class="cat">صالة العرض</span></figcaption></figure>
+<figure class="piece" id="p06" data-n="06" data-cat="showroom" data-latest="0" data-stem="IMG_2641" data-file="IMG_2641.jpeg" style="--ar:899/1599;--ph:#484238"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 06"><img src="gallery/opt/IMG_2641-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="من صالة عرض أصالة الذهب — قطعة Nº 06"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 06</span><span class="cat">صالة العرض</span></figcaption></figure>
+<figure class="piece" id="p07" data-n="07" data-cat="sets" data-latest="0" data-stem="IMG_2643" data-file="IMG_2643.jpeg" style="--ar:899/1599;--ph:#4f463f"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 07"><img src="gallery/opt/IMG_2643-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="طقم ذهب أصالة الذهب — قطعة Nº 07"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 07</span><span class="cat">الأطقم</span></figcaption></figure>
+<figure class="piece" id="p08" data-n="08" data-cat="showroom" data-latest="0" data-stem="IMG_2646" data-file="IMG_2646.jpeg" style="--ar:1599/899;--ph:#4d453b"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 08"><img src="gallery/opt/IMG_2646-640.webp" width="640" height="360" loading="lazy" decoding="async" alt="من صالة عرض أصالة الذهب — قطعة Nº 08"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 08</span><span class="cat">صالة العرض</span></figcaption></figure>
+<figure class="piece" id="p09" data-n="09" data-cat="showroom" data-latest="0" data-stem="IMG_2647" data-file="IMG_2647.jpeg" style="--ar:1599/899;--ph:#4d4234"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 09"><img src="gallery/opt/IMG_2647-640.webp" width="640" height="360" loading="lazy" decoding="async" alt="من صالة عرض أصالة الذهب — قطعة Nº 09"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 09</span><span class="cat">صالة العرض</span></figcaption></figure>
+<figure class="piece" id="p10" data-n="10" data-cat="showroom" data-latest="0" data-stem="IMG_2648" data-file="IMG_2648.jpeg" style="--ar:1599/899;--ph:#4e3e2c"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 10"><img src="gallery/opt/IMG_2648-640.webp" width="640" height="360" loading="lazy" decoding="async" alt="من صالة عرض أصالة الذهب — قطعة Nº 10"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 10</span><span class="cat">صالة العرض</span></figcaption></figure>
+<figure class="piece" id="p11" data-n="11" data-cat="bangles" data-latest="0" data-stem="IMG_2652" data-file="IMG_2652.jpeg" style="--ar:899/1599;--ph:#4f4438"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 11"><img src="gallery/opt/IMG_2652-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="أساور ذهب أصالة الذهب — قطعة Nº 11"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 11</span><span class="cat">الأساور</span></figcaption></figure>
+<figure class="piece" id="p12" data-n="12" data-cat="bangles" data-latest="0" data-stem="IMG_2653" data-file="IMG_2653.jpeg" style="--ar:899/1599;--ph:#4e4134"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 12"><img src="gallery/opt/IMG_2653-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="أساور ذهب أصالة الذهب — قطعة Nº 12"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 12</span><span class="cat">الأساور</span></figcaption></figure>
+<figure class="piece" id="p13" data-n="13" data-cat="bangles" data-latest="0" data-stem="IMG_2654" data-file="IMG_2654.jpeg" style="--ar:899/1599;--ph:#4c4235"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 13"><img src="gallery/opt/IMG_2654-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="أساور ذهب أصالة الذهب — قطعة Nº 13"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 13</span><span class="cat">الأساور</span></figcaption></figure>
+<figure class="piece" id="p14" data-n="14" data-cat="bangles" data-latest="0" data-stem="IMG_2655" data-file="IMG_2655.jpeg" style="--ar:899/1599;--ph:#4f4234"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 14"><img src="gallery/opt/IMG_2655-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="أساور ذهب أصالة الذهب — قطعة Nº 14"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 14</span><span class="cat">الأساور</span></figcaption></figure>
+<figure class="piece" id="p15" data-n="15" data-cat="bangles" data-latest="0" data-stem="IMG_2657" data-file="IMG_2657.jpeg" style="--ar:899/1599;--ph:#4e4334"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 15"><img src="gallery/opt/IMG_2657-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="أساور ذهب أصالة الذهب — قطعة Nº 15"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 15</span><span class="cat">الأساور</span></figcaption></figure>
+<figure class="piece" id="p16" data-n="16" data-cat="bangles" data-latest="0" data-stem="IMG_2751" data-file="IMG_2751.jpeg" style="--ar:1233/1251;--ph:#31281e"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 16"><img src="gallery/opt/IMG_2751-640.webp" width="640" height="649" loading="lazy" decoding="async" alt="أساور ذهب أصالة الذهب — قطعة Nº 16"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 16</span><span class="cat">الأساور</span></figcaption></figure>
+<figure class="piece" id="p17" data-n="17" data-cat="bangles" data-latest="0" data-stem="IMG_2752" data-file="IMG_2752.jpeg" style="--ar:1320/1395;--ph:#1c150c"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 17"><img src="gallery/opt/IMG_2752-640.webp" width="640" height="676" loading="lazy" decoding="async" alt="أساور ذهب أصالة الذهب — قطعة Nº 17"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 17</span><span class="cat">الأساور</span></figcaption></figure>
+<figure class="piece" id="p18" data-n="18" data-cat="sets" data-latest="0" data-stem="IMG_2753" data-file="IMG_2753.jpeg" style="--ar:1282/1438;--ph:#252019"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 18"><img src="gallery/opt/IMG_2753-640.webp" width="640" height="718" loading="lazy" decoding="async" alt="طقم ذهب أصالة الذهب — قطعة Nº 18"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 18</span><span class="cat">الأطقم</span></figcaption></figure>
+<figure class="piece" id="p19" data-n="19" data-cat="sets" data-latest="0" data-stem="IMG_2754" data-file="IMG_2754.jpeg" style="--ar:1265/1357;--ph:#312a22"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 19"><img src="gallery/opt/IMG_2754-640.webp" width="640" height="687" loading="lazy" decoding="async" alt="طقم ذهب أصالة الذهب — قطعة Nº 19"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 19</span><span class="cat">الأطقم</span></figcaption></figure>
+<figure class="piece" id="p20" data-n="20" data-cat="necklaces" data-latest="0" data-stem="1966323d-1488-4288-a324-7b0df29c244a" data-file="1966323d-1488-4288-a324-7b0df29c244a.jpeg" style="--ar:900/1600;--ph:#3c352c"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 20"><img src="gallery/opt/1966323d-1488-4288-a324-7b0df29c244a-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 20"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 20</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p21" data-n="21" data-cat="necklaces" data-latest="0" data-stem="246e6d69-538b-4c41-9929-77da1c55298a" data-file="246e6d69-538b-4c41-9929-77da1c55298a.jpeg" style="--ar:960/1280;--ph:#2c2a29"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 21"><img src="gallery/opt/246e6d69-538b-4c41-9929-77da1c55298a-640.webp" width="640" height="853" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 21"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 21</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p22" data-n="22" data-cat="sets" data-latest="0" data-stem="254f60f7-756b-415b-97c3-2987ab729ef9" data-file="254f60f7-756b-415b-97c3-2987ab729ef9.jpeg" style="--ar:900/1600;--ph:#3b352c"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 22"><img src="gallery/opt/254f60f7-756b-415b-97c3-2987ab729ef9-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="طقم ذهب أصالة الذهب — قطعة Nº 22"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 22</span><span class="cat">الأطقم</span></figcaption></figure>
+<figure class="piece" id="p23" data-n="23" data-cat="necklaces" data-latest="0" data-stem="3356f7e2-4ab3-4be4-a437-6c3d43340bbe" data-file="3356f7e2-4ab3-4be4-a437-6c3d43340bbe.jpeg" style="--ar:900/1600;--ph:#383532"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 23"><img src="gallery/opt/3356f7e2-4ab3-4be4-a437-6c3d43340bbe-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 23"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 23</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p24" data-n="24" data-cat="necklaces" data-latest="0" data-stem="3e01857b-13f5-42be-8aa9-51a9aae0b422" data-file="3e01857b-13f5-42be-8aa9-51a9aae0b422.jpeg" style="--ar:900/1600;--ph:#2e2b23"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 24"><img src="gallery/opt/3e01857b-13f5-42be-8aa9-51a9aae0b422-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 24"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 24</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p25" data-n="25" data-cat="bullion" data-latest="0" data-stem="3e7e04cc-e7d4-412c-b2eb-60a6dab27d53" data-file="3e7e04cc-e7d4-412c-b2eb-60a6dab27d53.jpeg" style="--ar:904/1600;--ph:#373536"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 25"><img src="gallery/opt/3e7e04cc-e7d4-412c-b2eb-60a6dab27d53-640.webp" width="640" height="1133" loading="lazy" decoding="async" alt="سبائك أصالة الذهب — قطعة Nº 25"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 25</span><span class="cat">السبائك</span></figcaption></figure>
+<figure class="piece" id="p26" data-n="26" data-cat="necklaces" data-latest="0" data-stem="488c54c0-b481-44d2-acdb-1b016e2a38e7" data-file="488c54c0-b481-44d2-acdb-1b016e2a38e7.jpeg" style="--ar:1200/1600;--ph:#302d24"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 26"><img src="gallery/opt/488c54c0-b481-44d2-acdb-1b016e2a38e7-640.webp" width="640" height="853" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 26"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 26</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p27" data-n="27" data-cat="necklaces" data-latest="0" data-stem="53c504b7-0b33-4044-bde8-3f0aef22e68a" data-file="53c504b7-0b33-4044-bde8-3f0aef22e68a.jpeg" style="--ar:900/1600;--ph:#393632"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 27"><img src="gallery/opt/53c504b7-0b33-4044-bde8-3f0aef22e68a-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 27"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 27</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p28" data-n="28" data-cat="necklaces" data-latest="0" data-stem="66515678-1a89-49e3-9e80-7d5d3b982d97" data-file="66515678-1a89-49e3-9e80-7d5d3b982d97.jpeg" style="--ar:900/1600;--ph:#302e25"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 28"><img src="gallery/opt/66515678-1a89-49e3-9e80-7d5d3b982d97-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 28"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 28</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p29" data-n="29" data-cat="necklaces" data-latest="0" data-stem="667334f9-915a-412d-987a-0f61e3ad016d" data-file="667334f9-915a-412d-987a-0f61e3ad016d.jpeg" style="--ar:900/1600;--ph:#383632"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 29"><img src="gallery/opt/667334f9-915a-412d-987a-0f61e3ad016d-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 29"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 29</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p30" data-n="30" data-cat="necklaces" data-latest="0" data-stem="75d2f2b6-d291-405c-b03e-c1950f5a0b42" data-file="75d2f2b6-d291-405c-b03e-c1950f5a0b42.jpeg" style="--ar:900/1600;--ph:#3a3935"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 30"><img src="gallery/opt/75d2f2b6-d291-405c-b03e-c1950f5a0b42-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 30"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 30</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p31" data-n="31" data-cat="necklaces" data-latest="0" data-stem="772eccca-cd10-4be1-9e7a-dc69f03f8967" data-file="772eccca-cd10-4be1-9e7a-dc69f03f8967.jpeg" style="--ar:900/1600;--ph:#34332a"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 31"><img src="gallery/opt/772eccca-cd10-4be1-9e7a-dc69f03f8967-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 31"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 31</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p32" data-n="32" data-cat="bangles" data-latest="0" data-stem="960fd9ab-d3a2-4761-a033-ffcbfe6e0e71" data-file="960fd9ab-d3a2-4761-a033-ffcbfe6e0e71.jpeg" style="--ar:1200/1600;--ph:#4b3c22"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 32"><img src="gallery/opt/960fd9ab-d3a2-4761-a033-ffcbfe6e0e71-640.webp" width="640" height="853" loading="lazy" decoding="async" alt="أساور ذهب أصالة الذهب — قطعة Nº 32"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 32</span><span class="cat">الأساور</span></figcaption></figure>
+<figure class="piece" id="p33" data-n="33" data-cat="necklaces" data-latest="0" data-stem="97f31d4b-da93-4ece-b620-57cd6f2da8b9" data-file="97f31d4b-da93-4ece-b620-57cd6f2da8b9.jpeg" style="--ar:900/1600;--ph:#404045"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 33"><img src="gallery/opt/97f31d4b-da93-4ece-b620-57cd6f2da8b9-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 33"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 33</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p34" data-n="34" data-cat="necklaces" data-latest="0" data-stem="9a45f2dd-37a8-421b-8331-86217bf9d619" data-file="9a45f2dd-37a8-421b-8331-86217bf9d619.jpeg" style="--ar:900/1600;--ph:#393530"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 34"><img src="gallery/opt/9a45f2dd-37a8-421b-8331-86217bf9d619-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 34"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 34</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p35" data-n="35" data-cat="bullion" data-latest="0" data-stem="c4f7a3c4-77af-411e-aa35-2f4d96e7f723" data-file="c4f7a3c4-77af-411e-aa35-2f4d96e7f723.jpeg" style="--ar:960/1280;--ph:#2a2926"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 35"><img src="gallery/opt/c4f7a3c4-77af-411e-aa35-2f4d96e7f723-640.webp" width="640" height="853" loading="lazy" decoding="async" alt="سبائك أصالة الذهب — قطعة Nº 35"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 35</span><span class="cat">السبائك</span></figcaption></figure>
+<figure class="piece" id="p36" data-n="36" data-cat="bangles" data-latest="0" data-stem="da71f129-b2af-4bd6-844c-30edbe8a0e02" data-file="da71f129-b2af-4bd6-844c-30edbe8a0e02.jpeg" style="--ar:900/1600;--ph:#41331e"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 36"><img src="gallery/opt/da71f129-b2af-4bd6-844c-30edbe8a0e02-640.webp" width="640" height="1138" loading="lazy" decoding="async" alt="أساور ذهب أصالة الذهب — قطعة Nº 36"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 36</span><span class="cat">الأساور</span></figcaption></figure>
+<figure class="piece" id="p37" data-n="37" data-cat="necklaces" data-latest="1" data-stem="2774BA9E-1058-4C61-A471-483269BF3B2B" data-file="2774BA9E-1058-4C61-A471-483269BF3B2B.png" style="--ar:1024/1536;--ph:#250f08"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 37"><span class="new">NEW</span><img src="gallery/opt/2774BA9E-1058-4C61-A471-483269BF3B2B-640.webp" width="640" height="960" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 37"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 37</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p38" data-n="38" data-cat="sets" data-latest="1" data-stem="305CA9B9-3084-44F7-BD07-F5DB40B6C92E" data-file="305CA9B9-3084-44F7-BD07-F5DB40B6C92E.png" style="--ar:1254/1254;--ph:#2a1207"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 38"><span class="new">NEW</span><img src="gallery/opt/305CA9B9-3084-44F7-BD07-F5DB40B6C92E-640.webp" width="640" height="640" loading="lazy" decoding="async" alt="طقم ذهب أصالة الذهب — قطعة Nº 38"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 38</span><span class="cat">الأطقم</span></figcaption></figure>
+<figure class="piece" id="p39" data-n="39" data-cat="necklaces" data-latest="1" data-stem="30E6704E-6D11-47A3-9159-2E856DDF6C42" data-file="30E6704E-6D11-47A3-9159-2E856DDF6C42.png" style="--ar:1024/1536;--ph:#271008"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 39"><span class="new">NEW</span><img src="gallery/opt/30E6704E-6D11-47A3-9159-2E856DDF6C42-640.webp" width="640" height="960" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 39"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 39</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p40" data-n="40" data-cat="necklaces" data-latest="1" data-stem="3F643CFA-0629-4CFB-8EDD-368B3080FE80" data-file="3F643CFA-0629-4CFB-8EDD-368B3080FE80.png" style="--ar:1024/1536;--ph:#251009"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 40"><span class="new">NEW</span><img src="gallery/opt/3F643CFA-0629-4CFB-8EDD-368B3080FE80-640.webp" width="640" height="960" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 40"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 40</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p41" data-n="41" data-cat="sets" data-latest="1" data-stem="48D10393-8817-4DC5-A7CB-B9CF640C9F48" data-file="48D10393-8817-4DC5-A7CB-B9CF640C9F48.png" style="--ar:1254/1254;--ph:#2d1308"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 41"><span class="new">NEW</span><img src="gallery/opt/48D10393-8817-4DC5-A7CB-B9CF640C9F48-640.webp" width="640" height="640" loading="lazy" decoding="async" alt="طقم ذهب أصالة الذهب — قطعة Nº 41"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 41</span><span class="cat">الأطقم</span></figcaption></figure>
+<figure class="piece" id="p42" data-n="42" data-cat="necklaces" data-latest="1" data-stem="5D438114-DF71-4B72-B106-98255E7EAD87" data-file="5D438114-DF71-4B72-B106-98255E7EAD87.png" style="--ar:1024/1536;--ph:#271108"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 42"><span class="new">NEW</span><img src="gallery/opt/5D438114-DF71-4B72-B106-98255E7EAD87-640.webp" width="640" height="960" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 42"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 42</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p43" data-n="43" data-cat="necklaces" data-latest="1" data-stem="5ED7D818-0045-43C2-8275-3058A811BD7C" data-file="5ED7D818-0045-43C2-8275-3058A811BD7C.png" style="--ar:1024/1536;--ph:#271008"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 43"><span class="new">NEW</span><img src="gallery/opt/5ED7D818-0045-43C2-8275-3058A811BD7C-640.webp" width="640" height="960" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 43"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 43</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p44" data-n="44" data-cat="necklaces" data-latest="1" data-stem="86FBDFD1-E69E-4BFD-9664-82E501D3487D" data-file="86FBDFD1-E69E-4BFD-9664-82E501D3487D.png" style="--ar:1024/1536;--ph:#271108"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 44"><span class="new">NEW</span><img src="gallery/opt/86FBDFD1-E69E-4BFD-9664-82E501D3487D-640.webp" width="640" height="960" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 44"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 44</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p45" data-n="45" data-cat="necklaces" data-latest="1" data-stem="A683B56D-0F8C-45DD-86E6-558BD9B882B0" data-file="A683B56D-0F8C-45DD-86E6-558BD9B882B0.png" style="--ar:1024/1536;--ph:#271109"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 45"><span class="new">NEW</span><img src="gallery/opt/A683B56D-0F8C-45DD-86E6-558BD9B882B0-640.webp" width="640" height="960" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 45"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 45</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p46" data-n="46" data-cat="necklaces" data-latest="1" data-stem="BEFE0802-26EC-4A46-8A9D-1D42C33570D1" data-file="BEFE0802-26EC-4A46-8A9D-1D42C33570D1.png" style="--ar:1024/1536;--ph:#27110a"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 46"><span class="new">NEW</span><img src="gallery/opt/BEFE0802-26EC-4A46-8A9D-1D42C33570D1-640.webp" width="640" height="960" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 46"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 46</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p47" data-n="47" data-cat="necklaces" data-latest="1" data-stem="D2027A9E-8E00-4B8A-A874-5F1E41DE03D5" data-file="D2027A9E-8E00-4B8A-A874-5F1E41DE03D5.png" style="--ar:1024/1536;--ph:#271108"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 47"><span class="new">NEW</span><img src="gallery/opt/D2027A9E-8E00-4B8A-A874-5F1E41DE03D5-640.webp" width="640" height="960" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 47"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 47</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p48" data-n="48" data-cat="necklaces" data-latest="1" data-stem="EB2820CE-6DBE-40E7-8A62-FD376318636C" data-file="EB2820CE-6DBE-40E7-8A62-FD376318636C.png" style="--ar:1024/1536;--ph:#281109"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 48"><span class="new">NEW</span><img src="gallery/opt/EB2820CE-6DBE-40E7-8A62-FD376318636C-640.webp" width="640" height="960" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 48"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 48</span><span class="cat">القلائد</span></figcaption></figure>
+<figure class="piece" id="p49" data-n="49" data-cat="necklaces" data-latest="1" data-stem="F0AA2880-6D27-4F97-883A-55A48D89A9E6" data-file="F0AA2880-6D27-4F97-883A-55A48D89A9E6.png" style="--ar:1024/1536;--ph:#271008"><button class="piece-btn" type="button" aria-label="عرض القطعة Nº 49"><span class="new">NEW</span><img src="gallery/opt/F0AA2880-6D27-4F97-883A-55A48D89A9E6-640.webp" width="640" height="960" loading="lazy" decoding="async" alt="قلادة ذهب أصالة الذهب — قطعة Nº 49"><span class="piece-view"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button><figcaption><span class="n">Nº 49</span><span class="cat">القلائد</span></figcaption></figure>
+<!--/GALLERY-->
+    </div>
+  </div>
+</section>
+
+<section class="light contact" id="contact">
+  <div class="wrap">
+    <div class="kicker rv">VISIT ASALAH GOLD</div>
+    <h2 class="display rv" data-ar="خلّينا نبقى على تواصل" data-en="Stay connected">خلّينا نبقى على تواصل</h2>
+    <p class="addr rv" data-ar="الصويرة — واسط — العراق" data-en="Al-Suwayrah — Wasit — Iraq">الصويرة — واسط — العراق</p>
+    <div class="channels">
+      <a class="channel rv" href="https://www.instagram.com/asalah_gold1/" target="_blank" rel="noopener"><svg><use href="#i-ig"/></svg><b>INSTAGRAM</b><span>@asalah_gold1</span></a>
+      <a class="channel rv" href="https://wa.me/9647723831444" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><b>WHATSAPP</b><span>+964 772 383 1444</span></a>
+      <a class="channel rv" href="mailto:asaalat7997@gmail.com"><svg><use href="#i-mail"/></svg><b>EMAIL</b><span>asaalat7997@gmail.com</span></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-in">
+    <a class="brand" href="#home"><img src="logo.jpg" width="46" height="46" alt="شعار أصالة الذهب" loading="lazy"><span><b>أصالة الذهب</b><small>ASALAH GOLD</small></span></a>
+    <nav aria-label="روابط التذييل">
+      <a href="#halls" data-ar="قاعات العرض" data-en="Collections">قاعات العرض</a>
+      <a href="#gallery" data-ar="المقتنيات" data-en="Gallery">المقتنيات</a>
+      <a href="https://www.instagram.com/asalah_gold1/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/9647723831444" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="mailto:asaalat7997@gmail.com">Email</a>
+    </nav>
+    <div class="legal"><span data-ar="أصالة الذهب لتجارة الذهب والفضة والمجوهرات محدودة المسؤولية" data-en="Asalah Gold for Gold, Silver &amp; Jewelry Trading LLC">أصالة الذهب لتجارة الذهب والفضة والمجوهرات محدودة المسؤولية</span><span>© <span id="year">2026</span> ASALAH GOLD — THE GOLD MUSEUM</span></div>
+  </div>
+</footer>
+
+<a class="fab" id="fab" href="https://wa.me/9647723831444" target="_blank" rel="noopener" aria-label="WhatsApp"><svg><use href="#i-wa"/></svg></a>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="معاينة القطعة" aria-hidden="true">
+  <div class="lb-top">
+    <div class="lb-meta"><span class="n" id="lbN"></span><span class="c" id="lbC"></span><span class="i" id="lbI"></span></div>
+    <button class="icon-btn" id="lbClose" type="button" aria-label="إغلاق"><svg><use href="#i-close"/></svg></button>
+  </div>
+  <div class="lb-stage" id="lbStage">
+    <button class="lb-nav lb-prev" id="lbPrev" type="button" aria-label="السابق"><svg><use href="#i-arrow"/></svg></button>
+    <div class="lb-track"><img class="lb-img" id="lbImg" alt=""></div>
+    <button class="lb-nav lb-next" id="lbNext" type="button" aria-label="التالي"><svg><use href="#i-arrow"/></svg></button>
+  </div>
+  <div class="lb-bottom">
+    <div class="lb-actions">
+      <a class="btn btn-gold" id="lbAsk" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-ar="استفسر عن القطعة" data-en="Ask about this piece">استفسر عن القطعة</span></a>
+      <button class="btn btn-line" id="lbShare" type="button"><svg><use href="#i-share"/></svg><span data-ar="مشاركة" data-en="Share">مشاركة</span></button>
+      <a class="btn btn-line" id="lbOrig" target="_blank" rel="noopener"><svg><use href="#i-zoom"/></svg><span data-ar="الصورة الأصلية" data-en="Original photo">الصورة الأصلية</span></a>
+    </div>
+    <div class="lb-thumbs" id="lbThumbs"></div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+(function(){
+'use strict';
+var d=document,h=d.documentElement,$=function(s,c){return(c||d).querySelector(s)},$$=function(s,c){return Array.prototype.slice.call((c||d).querySelectorAll(s))};
+var WA='9647723831444';
+var SITE=($('link[rel=canonical]')||{}).href||(location.origin+location.pathname);
+var CAT={necklaces:['القلائد','Necklaces'],sets:['الأطقم','Sets'],bangles:['الأساور','Bangles'],bullion:['السبائك','Bullion'],showroom:['صالة العرض','Showroom']};
+var lang=h.lang==='en'?'en':'ar';
+var t=function(ar,en){return lang==='en'?en:ar};
+$('#year').textContent=new Date().getFullYear();
+
+/* ---------- intro ---------- */
+var intro=$('#intro');
+function ready(){h.classList.add('ready')}
+function endIntro(){
+  if(!h.classList.contains('intro-on'))return;
+  h.classList.remove('intro-on');intro.classList.add('open');ready();
+  try{sessionStorage.setItem('ag-intro','1')}catch(e){}
+  setTimeout(function(){intro.classList.add('gone')},1250);
+}
+if(h.classList.contains('intro-on')){
+  setTimeout(endIntro,2300);
+  $('#skip').addEventListener('click',endIntro);
+  intro.addEventListener('click',endIntro);
+  d.addEventListener('keydown',function k(e){if(e.key==='Escape'||e.key==='Enter'){endIntro();d.removeEventListener('keydown',k)}});
+}
+
+/* ---------- header / drawer / fab ---------- */
+var header=$('#header'),fab=$('#fab'),drawer=$('#drawer'),menuBtn=$('#menuBtn');
+function onScroll(){var y=scrollY;header.classList.toggle('solid',y>40);fab.classList.toggle('show',y>innerHeight*.6)}
+addEventListener('scroll',onScroll,{passive:true});onScroll();
+function setDrawer(o){drawer.classList.toggle('open',o);drawer.setAttribute('aria-hidden',!o);menuBtn.setAttribute('aria-expanded',o);d.body.classList.toggle('locked',o)}
+menuBtn.addEventListener('click',function(){setDrawer(true)});
+$('#drawerClose').addEventListener('click',function(){setDrawer(false)});
+$$('a',drawer).forEach(function(a){a.addEventListener('click',function(){setDrawer(false)})});
+
+/* ---------- language ---------- */
+var langBtn=$('#lang');
+function applyLang(l,save){
+  lang=l;h.lang=l;h.dir=l==='ar'?'rtl':'ltr';
+  langBtn.textContent=l==='ar'?'EN':'عربي';
+  $$('[data-ar]').forEach(function(e){e.innerHTML=e.dataset[l]});
+  d.title=l==='ar'?'أصالة الذهب | ASALAH GOLD — مجوهرات ذهب وفضة في الصويرة، واسط':'ASALAH GOLD | أصالة الذهب — Gold & Silver Jewelry, Al-Suwayrah, Iraq';
+  $$('.piece').forEach(function(p){var c=CAT[p.dataset.cat];$('.cat',p).textContent=t(c[0],c[1])});
+  updateCount();
+  if(save){try{localStorage.setItem('ag-lang',l)}catch(e){}}
+}
+langBtn.addEventListener('click',function(){applyLang(lang==='ar'?'en':'ar',true)});
+
+/* ---------- gallery ---------- */
+var pieces=$$('.piece'),chips=$$('.chip'),filter='all',countLine=$('#countLine');
+function match(p,f){return f==='all'||(f==='latest'?p.dataset.latest==='1':f==='earlier'?p.dataset.latest!=='1':p.dataset.cat===f)}
+chips.forEach(function(c){c.querySelector('em').textContent=pieces.filter(function(p){return match(p,c.dataset.f)}).length});
+function visible(){return pieces.filter(function(p){return!p.hidden})}
+function updateCount(){var n=visible().length;countLine.textContent=t(n+' قطعة معروضة',n+(n===1?' piece':' pieces')+' on display')}
+function setFilter(f,scroll){
+  filter=f;
+  chips.forEach(function(c){c.setAttribute('aria-pressed',c.dataset.f===f)});
+  pieces.forEach(function(p){var m=match(p,f);if(p.hidden===m){p.hidden=!m;if(m){p.style.animation='none';p.offsetWidth;p.style.animation=''}}});
+  updateCount();
+  var active=chips.filter(function(c){return c.dataset.f===f})[0];if(active&&active.scrollIntoView)active.scrollIntoView({block:'nearest',inline:'center',behavior:'smooth'});
+  if(scroll)$('#gallery').scrollIntoView({behavior:'smooth'});
+}
+$('#chips').addEventListener('click',function(e){var b=e.target.closest('.chip');if(b)setFilter(b.dataset.f)});
+$$('[data-go]').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();setFilter(a.dataset.go,true)})});
+var masonry=$('#masonry');
+var tb=$('#toolbar');addEventListener('scroll',function(){var r=tb.getBoundingClientRect();tb.classList.toggle('stuck',r.top<=parseFloat(getComputedStyle(h).getPropertyValue('--header-h'))+1&&$('#gallery').getBoundingClientRect().bottom>200)},{passive:true});
+$$('.view-toggle button').forEach(function(b){b.addEventListener('click',function(){
+  $$('.view-toggle button').forEach(function(x){x.setAttribute('aria-pressed',x===b)});
+  masonry.classList.toggle('large',b.dataset.view==='large');
+})});
+/* soft fade-in when lazy images land */
+pieces.forEach(function(p){var im=$('img',p);if(!im.complete){im.classList.add('loading');im.addEventListener('load',function(){im.classList.remove('loading')},{once:true})}});
+
+/* ---------- lightbox ---------- */
+var lb=$('#lb'),lbImg=$('#lbImg'),lbThumbs=$('#lbThumbs'),cur=0,list=[],lastFocus=null;
+function src(p,size){return 'gallery/opt/'+p.dataset.stem+'-'+size+'.webp'}
+function renderThumbs(){
+  lbThumbs.innerHTML='';
+  list.forEach(function(p,i){var b=d.createElement('button');b.type='button';b.setAttribute('aria-label','Nº '+p.dataset.n);
+    var im=d.createElement('img');im.loading='lazy';im.alt='';im.src=src(p,640);b.appendChild(im);
+    b.addEventListener('click',function(){show(i)});lbThumbs.appendChild(b)});
+}
+function show(i){
+  if(!list.length)return;cur=(i+list.length)%list.length;var p=list[cur];
+  lbImg.classList.remove('zoom');lbImg.classList.add('fade');
+  var next=new Image();next.src=src(p,1600);
+  var swap=function(){lbImg.src=next.src;lbImg.alt=$('img',p).alt;lbImg.classList.remove('fade')};
+  if(next.decode)next.decode().then(swap,swap);else next.onload=swap;
+  var n=p.dataset.n,c=CAT[p.dataset.cat];
+  $('#lbN').textContent='Nº '+n;$('#lbC').textContent=t(c[0],c[1]);$('#lbI').textContent=(cur+1)+' / '+list.length;
+  var msg=t('مرحباً أصالة الذهب، أودّ الاستفسار عن القطعة رقم Nº '+n+' ('+c[0]+') من الموقع: ','Hello Asalah Gold, I would like to ask about piece Nº '+n+' ('+c[1]+') from your website: ')+SITE+'#piece-'+n;
+  $('#lbAsk').href='https://wa.me/'+WA+'?text='+encodeURIComponent(msg);
+  $('#lbOrig').href='gallery/'+p.dataset.file;
+  $$('button',lbThumbs).forEach(function(b,j){b.setAttribute('aria-current',j===cur);if(j===cur&&b.scrollIntoView)b.scrollIntoView({block:'nearest',inline:'center'})});
+  [1,-1].forEach(function(k){var q=list[(cur+k+list.length)%list.length];if(q)(new Image()).src=src(q,1600)});
+  if(history.replaceState)history.replaceState(null,'','#piece-'+n);
+}
+function open(p){
+  list=visible();if(list.indexOf(p)<0){list=pieces.slice()}
+  lastFocus=d.activeElement;renderThumbs();show(list.indexOf(p));
+  lb.classList.add('open');lb.setAttribute('aria-hidden','false');d.body.classList.add('locked');
+  setTimeout(function(){$('#lbClose').focus()},50);
+}
+function close(){
+  if(!lb.classList.contains('open'))return;
+  lb.classList.remove('open');lb.setAttribute('aria-hidden','true');d.body.classList.remove('locked');
+  if(history.replaceState)history.replaceState(null,'',location.pathname+location.search+'#gallery');
+  if(lastFocus)lastFocus.focus({preventScroll:true});
+}
+pieces.forEach(function(p){$('.piece-btn',p).addEventListener('click',function(){open(p)})});
+$('#lbClose').addEventListener('click',close);
+$('#lbPrev').addEventListener('click',function(){show(cur-1)});
+$('#lbNext').addEventListener('click',function(){show(cur+1)});
+lbImg.addEventListener('click',function(e){
+  var r=lbImg.getBoundingClientRect();lbImg.style.transformOrigin=((e.clientX-r.left)/r.width*100)+'% '+((e.clientY-r.top)/r.height*100)+'%';
+  lbImg.classList.toggle('zoom');
+});
+$('#lbStage').addEventListener('click',function(e){if(e.target===this||e.target.classList.contains('lb-track'))close()});
+d.addEventListener('keydown',function(e){
+  if(!lb.classList.contains('open'))return;
+  if(e.key==='Escape')close();
+  var rtl=h.dir==='rtl';
+  if(e.key==='ArrowLeft')show(cur+(rtl?1:-1));
+  if(e.key==='ArrowRight')show(cur+(rtl?-1:1));
+  if(e.key==='Tab'){var f=$$('button,a[href]',lb).filter(function(x){return x.offsetParent}),a=f[0],z=f[f.length-1];
+    if(e.shiftKey&&d.activeElement===a){e.preventDefault();z.focus()}else if(!e.shiftKey&&d.activeElement===z){e.preventDefault();a.focus()}}
+});
+/* swipe */
+var sx=0,sy=0,st=0;
+$('#lbStage').addEventListener('touchstart',function(e){if(e.touches.length>1)return;sx=e.touches[0].clientX;sy=e.touches[0].clientY;st=Date.now()},{passive:true});
+$('#lbStage').addEventListener('touchend',function(e){
+  if(lbImg.classList.contains('zoom'))return;
+  var dx=e.changedTouches[0].clientX-sx,dy=e.changedTouches[0].clientY-sy;
+  if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)*1.3&&Date.now()-st<700){var rtl=h.dir==='rtl';show(cur+((dx<0)!==rtl?1:-1))}
+  else if(dy>110&&Math.abs(dy)>Math.abs(dx)*1.5)close();
+},{passive:true});
+/* share */
+var toast=$('#toast');function say(m){toast.textContent=m;toast.classList.add('show');setTimeout(function(){toast.classList.remove('show')},2200)}
+$('#lbShare').addEventListener('click',function(){
+  var n=list[cur].dataset.n,url=SITE+'#piece-'+n,title='ASALAH GOLD — Nº '+n;
+  function copy(){if(navigator.clipboard)navigator.clipboard.writeText(url).then(function(){say(t('تم نسخ رابط القطعة','Link copied'))},function(){say(url)});else say(url)}
+  if(navigator.share)navigator.share({title:title,url:url}).catch(function(e){if(!e||e.name!=='AbortError')copy()});else copy();
+});
+/* deep link #piece-N */
+function fromHash(){var m=location.hash.match(/^#piece-(\d+)$/);if(!m)return;var p=pieces.filter(function(x){return x.dataset.n===m[1]})[0];if(p)open(p)}
+
+/* ---------- reveal ---------- */
+if('IntersectionObserver' in window){
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px',threshold:.08});
+  $$('.rv').forEach(function(e){io.observe(e)});
+}else $$('.rv').forEach(function(e){e.classList.add('in')});
+
+applyLang(lang,false);
+fromHash();
+
+/* ---------- stale-cache guard ----------
+   GitHub Pages / CDN may keep an old index.html for a few minutes.
+   We ask for version.json with a unique URL (bypasses every cache);
+   if a newer build exists, reload once on a fresh URL.             */
+var BUILD=$('meta[name=asalah-build]').content;
+if(/[?&]v=/.test(location.search)&&history.replaceState){var u=new URL(location.href);u.searchParams.delete('v');history.replaceState(null,'',u.pathname+u.search+u.hash)}
+if(location.protocol.indexOf('http')===0&&window.fetch){
+  setTimeout(function(){
+    fetch('version.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).then(function(j){
+      if(!j||!j.build||j.build===BUILD)return;
+      var k='ag-reload-'+j.build;try{if(sessionStorage.getItem(k))return;sessionStorage.setItem(k,'1')}catch(e){return}
+      var u=new URL(location.href);u.searchParams.set('v',j.build);location.replace(u.toString());
+    }).catch(function(){});
+  },1500);
+}
+})();
+</script>
+</body>
+</html>

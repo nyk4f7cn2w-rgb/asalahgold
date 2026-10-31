@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /preview.html
+Disallow: /animation-preview.html
+Sitemap: https://asalahgold.com/sitemap.xml
