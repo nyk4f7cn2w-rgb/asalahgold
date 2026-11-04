@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="asalah-build" content="2026.11.04-v3">
+<meta name="asalah-build" content="2026.11.04-v3.1">
 <title>أصالة الذهب | ASALAH GOLD — مجوهرات ذهب وفضة في الصويرة، واسط</title>
 <meta name="description" content="أصالة الذهب لتجارة الذهب والفضة والمجوهرات — قلائد وأطقم وأساور وسبائك بصورها الأصلية. الصويرة، واسط، العراق. اطلب عبر واتساب.">
 <meta name="theme-color" content="#1d0811">
@@ -32,7 +32,7 @@ var q=new URLSearchParams(location.search).get('lang'),l=q;if(!l){try{l=localSto
 if(l==='en'){h.lang='en';h.dir='ltr'}h.classList.add('js')})(document);
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"JewelryStore","name":"أصالة الذهب | ASALAH GOLD","legalName":"أصالة الذهب لتجارة الذهب والفضة والمجوهرات محدودة المسؤولية","url":"https://asalahgold.com/","logo":"https://asalahgold.com/logo.jpg","image":"https://asalahgold.com/assets/og-image.jpg","telephone":"+9647723831444","email":"asaalat7997@gmail.com","address":{"@type":"PostalAddress","addressLocality":"الصويرة","addressRegion":"واسط","addressCountry":"IQ"},"sameAs":["https://www.instagram.com/asalah_gold1/"]}
+{"@context":"https://schema.org","@type":"JewelryStore","name":"أصالة الذهب | ASALAH GOLD","legalName":"أصالة الذهب لتجارة الذهب والفضة والمجوهرات محدودة المسؤولية","url":"https://asalahgold.com/","logo":"https://asalahgold.com/logo.jpg","image":"https://asalahgold.com/assets/og-image.jpg","telephone":"+9647723831444","email":"asaalat7997@gmail.com","address":{"@type":"PostalAddress","addressLocality":"الصويرة","addressRegion":"واسط","addressCountry":"IQ"},"geo":{"@type":"GeoCoordinates","latitude":32.9282543,"longitude":44.7774777},"hasMap":"https://maps.app.goo.gl/HezW6MHNTK8DNkWL6","sameAs":["https://www.instagram.com/asalah_gold1/"]}
 </script>
 <style>
 :root{
@@ -275,7 +275,10 @@ html[dir=rtl] .card .v{text-align:right}
 html[dir=rtl] .card .go{transform:scaleX(-1)}
 .map{position:relative;min-height:420px;border:1px solid var(--line);padding:12px;display:flex;flex-direction:column}
 .map iframe{flex:1;width:100%;border:0;filter:grayscale(.35) sepia(.25) contrast(.95);min-height:360px;background:var(--wine-800)}
-.map a{display:flex;justify-content:space-between;align-items:center;padding:14px 6px 2px;font-size:14px;color:var(--gold-300)}
+.map-place{display:flex;align-items:center;gap:8px;margin:14px 4px 12px;font-size:14px;color:var(--gold-300)}
+.map-btns{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.map-btns .btn{padding:0 14px;font-size:13.5px}
+@media (max-width:420px){.map-btns{grid-template-columns:1fr}}
 @media (max-width:860px){.contact .wrap{grid-template-columns:1fr}.map{min-height:340px}.map iframe{min-height:290px}}
 
 /* ——— footer ——— */
@@ -323,6 +326,7 @@ html.js .rv.d1{transition-delay:.12s}html.js .rv.d2{transition-delay:.24s}html.j
   <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r=".6" fill="currentColor"/></symbol>
   <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></symbol>
   <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+  <symbol id="i-waze" viewBox="0 0 24 24"><path d="M5.5 15.5C4 14.6 3 13 3 11a8 8 0 0 1 16 0c0 3.2-2.3 6-5.6 6.6H10a2.5 2.5 0 0 1-4.5-2.1Z"/><circle cx="8" cy="18.5" r="1.6"/><circle cx="15.5" cy="18.5" r="1.6"/><circle cx="9" cy="10" r=".6" fill="currentColor"/><circle cx="14" cy="10" r=".6" fill="currentColor"/><path d="M9 13.2c1.2 1 2.8 1 4 0"/></symbol>
   <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
   <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></symbol>
   <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
@@ -560,8 +564,12 @@ html.js .rv.d1{transition-delay:.12s}html.js .rv.d2{transition-delay:.24s}html.j
       </div>
     </div>
     <div class="map rv d2">
-      <iframe title="خريطة الصويرة، واسط" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Al%20Suwaira%2C%20Wasit%2C%20Iraq&amp;z=13&amp;output=embed"></iframe>
-      <a href="https://maps.google.com/?q=Al%20Suwaira%2C%20Wasit%2C%20Iraq" target="_blank" rel="noopener"><span><svg class="i" style="vertical-align:-4px"><use href="#i-pin"/></svg> <span data-i="place">الصويرة — واسط — العراق</span></span><span data-i="ct.map">افتح في الخرائط</span></a>
+      <iframe title="موقع أصالة الذهب على الخريطة" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=32.9282543,44.7774777&amp;z=17&amp;output=embed"></iframe>
+      <p class="map-place"><svg class="i"><use href="#i-pin"/></svg><span data-i="place">الصويرة — واسط — العراق</span></p>
+      <div class="map-btns">
+        <a class="btn btn-gold" href="https://maps.app.goo.gl/HezW6MHNTK8DNkWL6" target="_blank" rel="noopener"><svg class="i"><use href="#i-pin"/></svg><span data-i="ct.gmaps">خرائط Google</span></a>
+        <a class="btn btn-line" href="https://waze.com/ul?ll=32.9282543%2C44.7774777&amp;navigate=yes" target="_blank" rel="noopener"><svg class="i"><use href="#i-waze"/></svg><span data-i="ct.waze">الاتجاهات عبر Waze</span></a>
+      </div>
     </div>
   </div>
 </section>
@@ -612,7 +620,7 @@ var EN={
 'place':'Al‑Suwaira — Wasit — Iraq',
 'gal.h':'The Gold Collection','gal.p':'The details speak up close. Tap any piece to see it larger, or to ask about it on WhatsApp.','gal.more':'Show more',
 'ord.h':'Order on WhatsApp','ord.p':'Three simple steps, and a direct conversation with the Asalah Gold team.','s1.t':'Choose a piece','s1.d':'Tap a piece in the gallery, then “Ask on WhatsApp” — its number reaches us instantly.','s2.t':'We confirm the details','s2.d':'We confirm availability and share details, with extra photos if needed.','s3.t':'Confirm your choice','s3.d':'We arrange the next step with you clearly — or welcome you in our showroom.','ord.b':'Start the conversation',
-'ct.h':'Let’s stay in touch','ct.p':'We would be delighted to welcome you in our showroom, or to answer your questions through the channels below.','ct.map':'Open in Maps',
+'ct.h':'Let’s stay in touch','ct.p':'We would be delighted to welcome you in our showroom, or to answer your questions through the channels below.','ct.gmaps':'Google Maps','ct.waze':'Directions on Waze',
 'ft':'© <span class="yr"></span> Asalah Gold for Trading Gold, Silver & Jewellery LLC — Al‑Suwaira, Wasit, Iraq.',
 'lb.wa':'Ask about this piece on WhatsApp','tag.new':'NEW'
 };
