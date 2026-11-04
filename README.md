@@ -14,6 +14,11 @@ Official website of ASALAH GOLD — https://asalahgold.com
 | `version.json` | رقم الإصدار — يُستخدم لإجبار المتصفح على تحميل آخر نسخة |
 | `tools/` | سكربتات الصيانة |
 
+## التصميم (Luxury v3 — برغندي وذهبي)
+- `index.html` صفحة واحدة: افتتاحية قصيرة، الواجهة، الدار، المجموعات، القصة، المعرض، الطلب عبر واتساب، التواصل والخريطة.
+- العربية افتراضية، والإنجليزية بزر EN أو الرابط `?lang=en`. النصوص الإنجليزية داخل كائن `EN` في آخر الملف.
+- `assets/logo-gold.png` و`assets/logo-mark.png` نسخ شفافة من الشعار الرسمي `logo.jpg` (تُولَّد بـ `python tools/make_logo.py`).
+
 ## إضافة صورة جديدة
 1. ارفع الصورة إلى `gallery/`.
 2. أضف سطراً لها في `gallery/catalog.json` (الصنف أحد: `necklaces`, `sets`, `bangles`, `bullion`, `showroom`).
